@@ -1,0 +1,11 @@
+export const GATEWAY_CONFIG_FILE = 'gateway.json'
+
+export const TELEGRAM_BOT_TOKEN_ENV = 'TELEGRAM_BOT_TOKEN'
+export const TELEGRAM_ALLOWED_USERS_ENV = 'TELEGRAM_ALLOWED_USERS'
+
+export const DEFAULT_GATEWAY_PORT = 8787
+export const DEFAULT_TELEGRAM_AGENT = 'base2'
+export const TELEGRAM_MAX_MESSAGE_LENGTH = 4096
+
+export const PAIRING_CODE_LENGTH = 8
+export const PAIRING_CODE_TTL_MS = 15 * 60 * 1000

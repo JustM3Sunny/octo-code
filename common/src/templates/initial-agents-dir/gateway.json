@@ -1,0 +1,24 @@
+{
+  "channels": {
+    "telegram": {
+      "enabled": true,
+      "botToken": "$TELEGRAM_BOT_TOKEN",
+      "dmPolicy": "pairing",
+      "allowFrom": [],
+      "ownerUserId": "",
+      "groupPolicy": "allowlist",
+      "groups": {
+        "*": { "requireMention": true, "enabled": true }
+      },
+      "mentionAliases": ["siya"],
+      "defaultAgent": "base2",
+      "streaming": "partial",
+      "historyLimit": 50
+    }
+  },
+  "gateway": {
+    "port": 8787,
+    "logLevel": "info",
+    "autoStart": true
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "extends": "../tsconfig.base.json",
+  "ts-node": {
+    "esm": true
+  },
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "jsxImportSource": "@opentui/react",
+    "outDir": "./dist",
+    "declaration": true,
+    "declarationMap": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "preserveSymlinks": false,
+    "baseUrl": ".",
+    "paths": {
+      "@siya/sdk": ["../sdk/src/index.ts"],
+      "@siya/common/*": ["../common/src/*"],
+      "@siya/agent-runtime/*": ["../packages/agent-runtime/src/*"],
+      "@siya/llm-providers/*": ["../packages/llm-providers/src/*"],
+      "@siya/code-map": ["../packages/code-map/src/index.ts"],
+      "@siya/gateway": ["../packages/gateway/src/index.ts"]
+    }
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "dist", "src/**/__tests__/**"]
+}

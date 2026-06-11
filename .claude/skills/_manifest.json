@@ -1,0 +1,4344 @@
+{
+  "installedAt": "2026-06-11T15:52:03.566Z",
+  "total": 866,
+  "sources": [
+    "anthropics/skills",
+    "Eyadkelleh/awesome-skills-security",
+    "frendysanusi/claude-pentest-skills",
+    "trilwu/secskills",
+    "trailofbits/skills",
+    "mukul975/Anthropic-Cybersecurity-Skills"
+  ],
+  "skills": [
+    {
+      "name": "acquiring-disk-image-with-dd-and-dcfldd",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/acquiring-disk-image-with-dd-and-dcfldd"
+    },
+    {
+      "name": "address-sanitizer",
+      "source": "trailofbits/skills",
+      "path": ".claude/skills/address-sanitizer"
+    },
+    {
+      "name": "aflpp",
+      "source": "trailofbits/skills",
+      "path": ".claude/skills/aflpp"
+    },
+    {
+      "name": "agentic-actions-auditor",
+      "source": "trailofbits/skills",
+      "path": ".claude/skills/agentic-actions-auditor"
+    },
+    {
+      "name": "algorand-vulnerability-scanner",
+      "source": "trailofbits/skills",
+      "path": ".claude/skills/algorand-vulnerability-scanner"
+    },
+    {
+      "name": "algorithmic-art",
+      "source": "anthropics/skills",
+      "path": ".claude/skills/algorithmic-art"
+    },
+    {
+      "name": "analyzing-active-directory-acl-abuse",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/analyzing-active-directory-acl-abuse"
+    },
+    {
+      "name": "analyzing-android-malware-with-apktool",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/analyzing-android-malware-with-apktool"
+    },
+    {
+      "name": "analyzing-api-gateway-access-logs",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/analyzing-api-gateway-access-logs"
+    },
+    {
+      "name": "analyzing-apt-group-with-mitre-navigator",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/analyzing-apt-group-with-mitre-navigator"
+    },
+    {
+      "name": "analyzing-azure-activity-logs-for-threats",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/analyzing-azure-activity-logs-for-threats"
+    },
+    {
+      "name": "analyzing-bootkit-and-rootkit-samples",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/analyzing-bootkit-and-rootkit-samples"
+    },
+    {
+      "name": "analyzing-browser-forensics-with-hindsight",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/analyzing-browser-forensics-with-hindsight"
+    },
+    {
+      "name": "analyzing-campaign-attribution-evidence",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/analyzing-campaign-attribution-evidence"
+    },
+    {
+      "name": "analyzing-certificate-transparency-for-phishing",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/analyzing-certificate-transparency-for-phishing"
+    },
+    {
+      "name": "analyzing-cloud-storage-access-patterns",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/analyzing-cloud-storage-access-patterns"
+    },
+    {
+      "name": "analyzing-cobalt-strike-beacon-configuration",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/analyzing-cobalt-strike-beacon-configuration"
+    },
+    {
+      "name": "analyzing-cobaltstrike-malleable-c2-profiles",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/analyzing-cobaltstrike-malleable-c2-profiles"
+    },
+    {
+      "name": "analyzing-command-and-control-communication",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/analyzing-command-and-control-communication"
+    },
+    {
+      "name": "analyzing-cyber-kill-chain",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/analyzing-cyber-kill-chain"
+    },
+    {
+      "name": "analyzing-disk-image-with-autopsy",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/analyzing-disk-image-with-autopsy"
+    },
+    {
+      "name": "analyzing-dns-logs-for-exfiltration",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/analyzing-dns-logs-for-exfiltration"
+    },
+    {
+      "name": "analyzing-docker-container-forensics",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/analyzing-docker-container-forensics"
+    },
+    {
+      "name": "analyzing-email-headers-for-phishing-investigation",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/analyzing-email-headers-for-phishing-investigation"
+    },
+    {
+      "name": "analyzing-ethereum-smart-contract-vulnerabilities",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/analyzing-ethereum-smart-contract-vulnerabilities"
+    },
+    {
+      "name": "analyzing-golang-malware-with-ghidra",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/analyzing-golang-malware-with-ghidra"
+    },
+    {
+      "name": "analyzing-heap-spray-exploitation",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/analyzing-heap-spray-exploitation"
+    },
+    {
+      "name": "analyzing-indicators-of-compromise",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/analyzing-indicators-of-compromise"
+    },
+    {
+      "name": "analyzing-ios-app-security-with-objection",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/analyzing-ios-app-security-with-objection"
+    },
+    {
+      "name": "analyzing-kubernetes-audit-logs",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/analyzing-kubernetes-audit-logs"
+    },
+    {
+      "name": "analyzing-linux-audit-logs-for-intrusion",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/analyzing-linux-audit-logs-for-intrusion"
+    },
+    {
+      "name": "analyzing-linux-elf-malware",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/analyzing-linux-elf-malware"
+    },
+    {
+      "name": "analyzing-linux-kernel-rootkits",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/analyzing-linux-kernel-rootkits"
+    },
+    {
+      "name": "analyzing-linux-system-artifacts",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/analyzing-linux-system-artifacts"
+    },
+    {
+      "name": "analyzing-lnk-file-and-jump-list-artifacts",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/analyzing-lnk-file-and-jump-list-artifacts"
+    },
+    {
+      "name": "analyzing-macro-malware-in-office-documents",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/analyzing-macro-malware-in-office-documents"
+    },
+    {
+      "name": "analyzing-malicious-pdf-with-peepdf",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/analyzing-malicious-pdf-with-peepdf"
+    },
+    {
+      "name": "analyzing-malicious-url-with-urlscan",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/analyzing-malicious-url-with-urlscan"
+    },
+    {
+      "name": "analyzing-malware-behavior-with-cuckoo-sandbox",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/analyzing-malware-behavior-with-cuckoo-sandbox"
+    },
+    {
+      "name": "analyzing-malware-family-relationships-with-malpedia",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/analyzing-malware-family-relationships-with-malpedia"
+    },
+    {
+      "name": "analyzing-malware-persistence-with-autoruns",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/analyzing-malware-persistence-with-autoruns"
+    },
+    {
+      "name": "analyzing-malware-sandbox-evasion-techniques",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/analyzing-malware-sandbox-evasion-techniques"
+    },
+    {
+      "name": "analyzing-memory-dumps-with-volatility",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/analyzing-memory-dumps-with-volatility"
+    },
+    {
+      "name": "analyzing-memory-forensics-with-lime-and-volatility",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/analyzing-memory-forensics-with-lime-and-volatility"
+    },
+    {
+      "name": "analyzing-mft-for-deleted-file-recovery",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/analyzing-mft-for-deleted-file-recovery"
+    },
+    {
+      "name": "analyzing-network-covert-channels-in-malware",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/analyzing-network-covert-channels-in-malware"
+    },
+    {
+      "name": "analyzing-network-flow-data-with-netflow",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/analyzing-network-flow-data-with-netflow"
+    },
+    {
+      "name": "analyzing-network-packets-with-scapy",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/analyzing-network-packets-with-scapy"
+    },
+    {
+      "name": "analyzing-network-traffic-for-incidents",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/analyzing-network-traffic-for-incidents"
+    },
+    {
+      "name": "analyzing-network-traffic-of-malware",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/analyzing-network-traffic-of-malware"
+    },
+    {
+      "name": "analyzing-network-traffic-with-wireshark",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/analyzing-network-traffic-with-wireshark"
+    },
+    {
+      "name": "analyzing-office365-audit-logs-for-compromise",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/analyzing-office365-audit-logs-for-compromise"
+    },
+    {
+      "name": "analyzing-outlook-pst-for-email-forensics",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/analyzing-outlook-pst-for-email-forensics"
+    },
+    {
+      "name": "analyzing-packed-malware-with-upx-unpacker",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/analyzing-packed-malware-with-upx-unpacker"
+    },
+    {
+      "name": "analyzing-pdf-malware-with-pdfid",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/analyzing-pdf-malware-with-pdfid"
+    },
+    {
+      "name": "analyzing-persistence-mechanisms-in-linux",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/analyzing-persistence-mechanisms-in-linux"
+    },
+    {
+      "name": "analyzing-powershell-empire-artifacts",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/analyzing-powershell-empire-artifacts"
+    },
+    {
+      "name": "analyzing-powershell-script-block-logging",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/analyzing-powershell-script-block-logging"
+    },
+    {
+      "name": "analyzing-prefetch-files-for-execution-history",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/analyzing-prefetch-files-for-execution-history"
+    },
+    {
+      "name": "analyzing-ransomware-encryption-mechanisms",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/analyzing-ransomware-encryption-mechanisms"
+    },
+    {
+      "name": "analyzing-ransomware-leak-site-intelligence",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/analyzing-ransomware-leak-site-intelligence"
+    },
+    {
+      "name": "analyzing-ransomware-network-indicators",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/analyzing-ransomware-network-indicators"
+    },
+    {
+      "name": "analyzing-ransomware-payment-wallets",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/analyzing-ransomware-payment-wallets"
+    },
+    {
+      "name": "analyzing-sbom-for-supply-chain-vulnerabilities",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/analyzing-sbom-for-supply-chain-vulnerabilities"
+    },
+    {
+      "name": "analyzing-security-logs-with-splunk",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/analyzing-security-logs-with-splunk"
+    },
+    {
+      "name": "analyzing-slack-space-and-file-system-artifacts",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/analyzing-slack-space-and-file-system-artifacts"
+    },
+    {
+      "name": "analyzing-supply-chain-malware-artifacts",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/analyzing-supply-chain-malware-artifacts"
+    },
+    {
+      "name": "analyzing-threat-actor-ttps-with-mitre-attack",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/analyzing-threat-actor-ttps-with-mitre-attack"
+    },
+    {
+      "name": "analyzing-threat-actor-ttps-with-mitre-navigator",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/analyzing-threat-actor-ttps-with-mitre-navigator"
+    },
+    {
+      "name": "analyzing-threat-intelligence-feeds",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/analyzing-threat-intelligence-feeds"
+    },
+    {
+      "name": "analyzing-threat-landscape-with-misp",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/analyzing-threat-landscape-with-misp"
+    },
+    {
+      "name": "analyzing-tls-certificate-transparency-logs",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/analyzing-tls-certificate-transparency-logs"
+    },
+    {
+      "name": "analyzing-typosquatting-domains-with-dnstwist",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/analyzing-typosquatting-domains-with-dnstwist"
+    },
+    {
+      "name": "analyzing-uefi-bootkit-persistence",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/analyzing-uefi-bootkit-persistence"
+    },
+    {
+      "name": "analyzing-usb-device-connection-history",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/analyzing-usb-device-connection-history"
+    },
+    {
+      "name": "analyzing-web-server-logs-for-intrusion",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/analyzing-web-server-logs-for-intrusion"
+    },
+    {
+      "name": "analyzing-windows-amcache-artifacts",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/analyzing-windows-amcache-artifacts"
+    },
+    {
+      "name": "analyzing-windows-event-logs-in-splunk",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/analyzing-windows-event-logs-in-splunk"
+    },
+    {
+      "name": "analyzing-windows-lnk-files-for-artifacts",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/analyzing-windows-lnk-files-for-artifacts"
+    },
+    {
+      "name": "analyzing-windows-prefetch-with-python",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/analyzing-windows-prefetch-with-python"
+    },
+    {
+      "name": "analyzing-windows-registry-for-artifacts",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/analyzing-windows-registry-for-artifacts"
+    },
+    {
+      "name": "analyzing-windows-shellbag-artifacts",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/analyzing-windows-shellbag-artifacts"
+    },
+    {
+      "name": "ask-questions-if-underspecified",
+      "source": "trailofbits/skills",
+      "path": ".claude/skills/ask-questions-if-underspecified"
+    },
+    {
+      "name": "atheris",
+      "source": "trailofbits/skills",
+      "path": ".claude/skills/atheris"
+    },
+    {
+      "name": "attacking-active-directory",
+      "source": "trilwu/secskills",
+      "path": ".claude/skills/attacking-active-directory"
+    },
+    {
+      "name": "attacking-wireless-networks",
+      "source": "trilwu/secskills",
+      "path": ".claude/skills/attacking-wireless-networks"
+    },
+    {
+      "name": "audit-augmentation",
+      "source": "trailofbits/skills",
+      "path": ".claude/skills/audit-augmentation"
+    },
+    {
+      "name": "audit-context-building",
+      "source": "trailofbits/skills",
+      "path": ".claude/skills/audit-context-building"
+    },
+    {
+      "name": "audit-prep-assistant",
+      "source": "trailofbits/skills",
+      "path": ".claude/skills/audit-prep-assistant"
+    },
+    {
+      "name": "auditing-aws-s3-bucket-permissions",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/auditing-aws-s3-bucket-permissions"
+    },
+    {
+      "name": "auditing-azure-active-directory-configuration",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/auditing-azure-active-directory-configuration"
+    },
+    {
+      "name": "auditing-cloud-with-cis-benchmarks",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/auditing-cloud-with-cis-benchmarks"
+    },
+    {
+      "name": "auditing-gcp-iam-permissions",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/auditing-gcp-iam-permissions"
+    },
+    {
+      "name": "auditing-kubernetes-cluster-rbac",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/auditing-kubernetes-cluster-rbac"
+    },
+    {
+      "name": "auditing-terraform-infrastructure-for-security",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/auditing-terraform-infrastructure-for-security"
+    },
+    {
+      "name": "auditing-tls-certificate-transparency-logs",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/auditing-tls-certificate-transparency-logs"
+    },
+    {
+      "name": "automating-ioc-enrichment",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/automating-ioc-enrichment"
+    },
+    {
+      "name": "brand-guidelines",
+      "source": "anthropics/skills",
+      "path": ".claude/skills/brand-guidelines"
+    },
+    {
+      "name": "building-adversary-infrastructure-tracking-system",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/building-adversary-infrastructure-tracking-system"
+    },
+    {
+      "name": "building-attack-pattern-library-from-cti-reports",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/building-attack-pattern-library-from-cti-reports"
+    },
+    {
+      "name": "building-automated-malware-submission-pipeline",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/building-automated-malware-submission-pipeline"
+    },
+    {
+      "name": "building-c2-infrastructure-with-sliver-framework",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/building-c2-infrastructure-with-sliver-framework"
+    },
+    {
+      "name": "building-cloud-siem-with-sentinel",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/building-cloud-siem-with-sentinel"
+    },
+    {
+      "name": "building-detection-rule-with-splunk-spl",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/building-detection-rule-with-splunk-spl"
+    },
+    {
+      "name": "building-detection-rules-with-sigma",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/building-detection-rules-with-sigma"
+    },
+    {
+      "name": "building-devsecops-pipeline-with-gitlab-ci",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/building-devsecops-pipeline-with-gitlab-ci"
+    },
+    {
+      "name": "building-identity-federation-with-saml-azure-ad",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/building-identity-federation-with-saml-azure-ad"
+    },
+    {
+      "name": "building-identity-governance-lifecycle-process",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/building-identity-governance-lifecycle-process"
+    },
+    {
+      "name": "building-incident-response-dashboard",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/building-incident-response-dashboard"
+    },
+    {
+      "name": "building-incident-response-playbook",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/building-incident-response-playbook"
+    },
+    {
+      "name": "building-incident-timeline-with-timesketch",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/building-incident-timeline-with-timesketch"
+    },
+    {
+      "name": "building-ioc-defanging-and-sharing-pipeline",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/building-ioc-defanging-and-sharing-pipeline"
+    },
+    {
+      "name": "building-ioc-enrichment-pipeline-with-opencti",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/building-ioc-enrichment-pipeline-with-opencti"
+    },
+    {
+      "name": "building-malware-incident-communication-template",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/building-malware-incident-communication-template"
+    },
+    {
+      "name": "building-patch-tuesday-response-process",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/building-patch-tuesday-response-process"
+    },
+    {
+      "name": "building-phishing-reporting-button-workflow",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/building-phishing-reporting-button-workflow"
+    },
+    {
+      "name": "building-ransomware-playbook-with-cisa-framework",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/building-ransomware-playbook-with-cisa-framework"
+    },
+    {
+      "name": "building-red-team-c2-infrastructure-with-havoc",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/building-red-team-c2-infrastructure-with-havoc"
+    },
+    {
+      "name": "building-role-mining-for-rbac-optimization",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/building-role-mining-for-rbac-optimization"
+    },
+    {
+      "name": "building-soc-escalation-matrix",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/building-soc-escalation-matrix"
+    },
+    {
+      "name": "building-soc-metrics-and-kpi-tracking",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/building-soc-metrics-and-kpi-tracking"
+    },
+    {
+      "name": "building-soc-playbook-for-ransomware",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/building-soc-playbook-for-ransomware"
+    },
+    {
+      "name": "building-threat-actor-profile-from-osint",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/building-threat-actor-profile-from-osint"
+    },
+    {
+      "name": "building-threat-feed-aggregation-with-misp",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/building-threat-feed-aggregation-with-misp"
+    },
+    {
+      "name": "building-threat-hunt-hypothesis-framework",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/building-threat-hunt-hypothesis-framework"
+    },
+    {
+      "name": "building-threat-intelligence-enrichment-in-splunk",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/building-threat-intelligence-enrichment-in-splunk"
+    },
+    {
+      "name": "building-threat-intelligence-feed-integration",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/building-threat-intelligence-feed-integration"
+    },
+    {
+      "name": "building-threat-intelligence-platform",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/building-threat-intelligence-platform"
+    },
+    {
+      "name": "building-vulnerability-aging-and-sla-tracking",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/building-vulnerability-aging-and-sla-tracking"
+    },
+    {
+      "name": "building-vulnerability-dashboard-with-defectdojo",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/building-vulnerability-dashboard-with-defectdojo"
+    },
+    {
+      "name": "building-vulnerability-exception-tracking-system",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/building-vulnerability-exception-tracking-system"
+    },
+    {
+      "name": "building-vulnerability-scanning-workflow",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/building-vulnerability-scanning-workflow"
+    },
+    {
+      "name": "burpsuite-project-parser",
+      "source": "trailofbits/skills",
+      "path": ".claude/skills/burpsuite-project-parser"
+    },
+    {
+      "name": "bypassing-authentication-with-forced-browsing",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/bypassing-authentication-with-forced-browsing"
+    },
+    {
+      "name": "c-review",
+      "source": "trailofbits/skills",
+      "path": ".claude/skills/c-review"
+    },
+    {
+      "name": "cairo-vulnerability-scanner",
+      "source": "trailofbits/skills",
+      "path": ".claude/skills/cairo-vulnerability-scanner"
+    },
+    {
+      "name": "canvas-design",
+      "source": "anthropics/skills",
+      "path": ".claude/skills/canvas-design"
+    },
+    {
+      "name": "cargo-fuzz",
+      "source": "trailofbits/skills",
+      "path": ".claude/skills/cargo-fuzz"
+    },
+    {
+      "name": "chrome-mcp-troubleshooting",
+      "source": "trailofbits/skills",
+      "path": ".claude/skills/chrome-mcp-troubleshooting"
+    },
+    {
+      "name": "claude-api",
+      "source": "anthropics/skills",
+      "path": ".claude/skills/claude-api"
+    },
+    {
+      "name": "claude-pentest-skills",
+      "source": "frendysanusi/claude-pentest-skills",
+      "path": ".claude/skills/claude-pentest-skills"
+    },
+    {
+      "name": "code-maturity-assessor",
+      "source": "trailofbits/skills",
+      "path": ".claude/skills/code-maturity-assessor"
+    },
+    {
+      "name": "codeql",
+      "source": "trailofbits/skills",
+      "path": ".claude/skills/codeql"
+    },
+    {
+      "name": "collecting-indicators-of-compromise",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/collecting-indicators-of-compromise"
+    },
+    {
+      "name": "collecting-open-source-intelligence",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/collecting-open-source-intelligence"
+    },
+    {
+      "name": "collecting-threat-intelligence-with-misp",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/collecting-threat-intelligence-with-misp"
+    },
+    {
+      "name": "collecting-volatile-evidence-from-compromised-host",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/collecting-volatile-evidence-from-compromised-host"
+    },
+    {
+      "name": "conducting-api-security-testing",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/conducting-api-security-testing"
+    },
+    {
+      "name": "conducting-cloud-incident-response",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/conducting-cloud-incident-response"
+    },
+    {
+      "name": "conducting-cloud-penetration-testing",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/conducting-cloud-penetration-testing"
+    },
+    {
+      "name": "conducting-domain-persistence-with-dcsync",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/conducting-domain-persistence-with-dcsync"
+    },
+    {
+      "name": "conducting-external-reconnaissance-with-osint",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/conducting-external-reconnaissance-with-osint"
+    },
+    {
+      "name": "conducting-full-scope-red-team-engagement",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/conducting-full-scope-red-team-engagement"
+    },
+    {
+      "name": "conducting-internal-network-penetration-test",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/conducting-internal-network-penetration-test"
+    },
+    {
+      "name": "conducting-internal-reconnaissance-with-bloodhound-ce",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/conducting-internal-reconnaissance-with-bloodhound-ce"
+    },
+    {
+      "name": "conducting-malware-incident-response",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/conducting-malware-incident-response"
+    },
+    {
+      "name": "conducting-man-in-the-middle-attack-simulation",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/conducting-man-in-the-middle-attack-simulation"
+    },
+    {
+      "name": "conducting-memory-forensics-with-volatility",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/conducting-memory-forensics-with-volatility"
+    },
+    {
+      "name": "conducting-mobile-app-penetration-test",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/conducting-mobile-app-penetration-test"
+    },
+    {
+      "name": "conducting-network-penetration-test",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/conducting-network-penetration-test"
+    },
+    {
+      "name": "conducting-pass-the-ticket-attack",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/conducting-pass-the-ticket-attack"
+    },
+    {
+      "name": "conducting-phishing-incident-response",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/conducting-phishing-incident-response"
+    },
+    {
+      "name": "conducting-post-incident-lessons-learned",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/conducting-post-incident-lessons-learned"
+    },
+    {
+      "name": "conducting-social-engineering-penetration-test",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/conducting-social-engineering-penetration-test"
+    },
+    {
+      "name": "conducting-social-engineering-pretext-call",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/conducting-social-engineering-pretext-call"
+    },
+    {
+      "name": "conducting-spearphishing-simulation-campaign",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/conducting-spearphishing-simulation-campaign"
+    },
+    {
+      "name": "conducting-wireless-network-penetration-test",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/conducting-wireless-network-penetration-test"
+    },
+    {
+      "name": "configuring-active-directory-tiered-model",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/configuring-active-directory-tiered-model"
+    },
+    {
+      "name": "configuring-aws-verified-access-for-ztna",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/configuring-aws-verified-access-for-ztna"
+    },
+    {
+      "name": "configuring-certificate-authority-with-openssl",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/configuring-certificate-authority-with-openssl"
+    },
+    {
+      "name": "configuring-host-based-intrusion-detection",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/configuring-host-based-intrusion-detection"
+    },
+    {
+      "name": "configuring-hsm-for-key-storage",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/configuring-hsm-for-key-storage"
+    },
+    {
+      "name": "configuring-identity-aware-proxy-with-google-iap",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/configuring-identity-aware-proxy-with-google-iap"
+    },
+    {
+      "name": "configuring-ldap-security-hardening",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/configuring-ldap-security-hardening"
+    },
+    {
+      "name": "configuring-microsegmentation-for-zero-trust",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/configuring-microsegmentation-for-zero-trust"
+    },
+    {
+      "name": "configuring-multi-factor-authentication-with-duo",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/configuring-multi-factor-authentication-with-duo"
+    },
+    {
+      "name": "configuring-network-segmentation-with-vlans",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/configuring-network-segmentation-with-vlans"
+    },
+    {
+      "name": "configuring-oauth2-authorization-flow",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/configuring-oauth2-authorization-flow"
+    },
+    {
+      "name": "configuring-pfsense-firewall-rules",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/configuring-pfsense-firewall-rules"
+    },
+    {
+      "name": "configuring-snort-ids-for-intrusion-detection",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/configuring-snort-ids-for-intrusion-detection"
+    },
+    {
+      "name": "configuring-suricata-for-network-monitoring",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/configuring-suricata-for-network-monitoring"
+    },
+    {
+      "name": "configuring-tls-1-3-for-secure-communications",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/configuring-tls-1-3-for-secure-communications"
+    },
+    {
+      "name": "configuring-windows-defender-advanced-settings",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/configuring-windows-defender-advanced-settings"
+    },
+    {
+      "name": "configuring-windows-event-logging-for-detection",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/configuring-windows-event-logging-for-detection"
+    },
+    {
+      "name": "configuring-zscaler-private-access-for-ztna",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/configuring-zscaler-private-access-for-ztna"
+    },
+    {
+      "name": "constant-time-analysis",
+      "source": "trailofbits/skills",
+      "path": ".claude/skills/constant-time-analysis"
+    },
+    {
+      "name": "constant-time-testing",
+      "source": "trailofbits/skills",
+      "path": ".claude/skills/constant-time-testing"
+    },
+    {
+      "name": "containing-active-breach",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/containing-active-breach"
+    },
+    {
+      "name": "correlating-security-events-in-qradar",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/correlating-security-events-in-qradar"
+    },
+    {
+      "name": "correlating-threat-campaigns",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/correlating-threat-campaigns"
+    },
+    {
+      "name": "cosmos-vulnerability-scanner",
+      "source": "trailofbits/skills",
+      "path": ".claude/skills/cosmos-vulnerability-scanner"
+    },
+    {
+      "name": "coverage-analysis",
+      "source": "trailofbits/skills",
+      "path": ".claude/skills/coverage-analysis"
+    },
+    {
+      "name": "cracking-passwords",
+      "source": "trilwu/secskills",
+      "path": ".claude/skills/cracking-passwords"
+    },
+    {
+      "name": "crypto-protocol-diagram",
+      "source": "trailofbits/skills",
+      "path": ".claude/skills/crypto-protocol-diagram"
+    },
+    {
+      "name": "debug-buttercup",
+      "source": "trailofbits/skills",
+      "path": ".claude/skills/debug-buttercup"
+    },
+    {
+      "name": "deobfuscating-javascript-malware",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/deobfuscating-javascript-malware"
+    },
+    {
+      "name": "deobfuscating-powershell-obfuscated-malware",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/deobfuscating-powershell-obfuscated-malware"
+    },
+    {
+      "name": "deploying-active-directory-honeytokens",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/deploying-active-directory-honeytokens"
+    },
+    {
+      "name": "deploying-cloudflare-access-for-zero-trust",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/deploying-cloudflare-access-for-zero-trust"
+    },
+    {
+      "name": "deploying-decoy-files-for-ransomware-detection",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/deploying-decoy-files-for-ransomware-detection"
+    },
+    {
+      "name": "deploying-edr-agent-with-crowdstrike",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/deploying-edr-agent-with-crowdstrike"
+    },
+    {
+      "name": "deploying-osquery-for-endpoint-monitoring",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/deploying-osquery-for-endpoint-monitoring"
+    },
+    {
+      "name": "deploying-palo-alto-prisma-access-zero-trust",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/deploying-palo-alto-prisma-access-zero-trust"
+    },
+    {
+      "name": "deploying-ransomware-canary-files",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/deploying-ransomware-canary-files"
+    },
+    {
+      "name": "deploying-software-defined-perimeter",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/deploying-software-defined-perimeter"
+    },
+    {
+      "name": "deploying-tailscale-for-zero-trust-vpn",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/deploying-tailscale-for-zero-trust-vpn"
+    },
+    {
+      "name": "designing-workflow-skills",
+      "source": "trailofbits/skills",
+      "path": ".claude/skills/designing-workflow-skills"
+    },
+    {
+      "name": "detecting-ai-model-prompt-injection-attacks",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/detecting-ai-model-prompt-injection-attacks"
+    },
+    {
+      "name": "detecting-anomalies-in-industrial-control-systems",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/detecting-anomalies-in-industrial-control-systems"
+    },
+    {
+      "name": "detecting-anomalous-authentication-patterns",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/detecting-anomalous-authentication-patterns"
+    },
+    {
+      "name": "detecting-api-enumeration-attacks",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/detecting-api-enumeration-attacks"
+    },
+    {
+      "name": "detecting-arp-poisoning-in-network-traffic",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/detecting-arp-poisoning-in-network-traffic"
+    },
+    {
+      "name": "detecting-attacks-on-historian-servers",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/detecting-attacks-on-historian-servers"
+    },
+    {
+      "name": "detecting-attacks-on-scada-systems",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/detecting-attacks-on-scada-systems"
+    },
+    {
+      "name": "detecting-aws-cloudtrail-anomalies",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/detecting-aws-cloudtrail-anomalies"
+    },
+    {
+      "name": "detecting-aws-credential-exposure-with-trufflehog",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/detecting-aws-credential-exposure-with-trufflehog"
+    },
+    {
+      "name": "detecting-aws-guardduty-findings-automation",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/detecting-aws-guardduty-findings-automation"
+    },
+    {
+      "name": "detecting-aws-iam-privilege-escalation",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/detecting-aws-iam-privilege-escalation"
+    },
+    {
+      "name": "detecting-azure-lateral-movement",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/detecting-azure-lateral-movement"
+    },
+    {
+      "name": "detecting-azure-service-principal-abuse",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/detecting-azure-service-principal-abuse"
+    },
+    {
+      "name": "detecting-azure-storage-account-misconfigurations",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/detecting-azure-storage-account-misconfigurations"
+    },
+    {
+      "name": "detecting-beaconing-patterns-with-zeek",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/detecting-beaconing-patterns-with-zeek"
+    },
+    {
+      "name": "detecting-bluetooth-low-energy-attacks",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/detecting-bluetooth-low-energy-attacks"
+    },
+    {
+      "name": "detecting-broken-object-property-level-authorization",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/detecting-broken-object-property-level-authorization"
+    },
+    {
+      "name": "detecting-business-email-compromise",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/detecting-business-email-compromise"
+    },
+    {
+      "name": "detecting-business-email-compromise-with-ai",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/detecting-business-email-compromise-with-ai"
+    },
+    {
+      "name": "detecting-cloud-threats-with-guardduty",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/detecting-cloud-threats-with-guardduty"
+    },
+    {
+      "name": "detecting-command-and-control-over-dns",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/detecting-command-and-control-over-dns"
+    },
+    {
+      "name": "detecting-compromised-cloud-credentials",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/detecting-compromised-cloud-credentials"
+    },
+    {
+      "name": "detecting-container-drift-at-runtime",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/detecting-container-drift-at-runtime"
+    },
+    {
+      "name": "detecting-container-escape-attempts",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/detecting-container-escape-attempts"
+    },
+    {
+      "name": "detecting-container-escape-with-falco-rules",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/detecting-container-escape-with-falco-rules"
+    },
+    {
+      "name": "detecting-credential-dumping-techniques",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/detecting-credential-dumping-techniques"
+    },
+    {
+      "name": "detecting-cryptomining-in-cloud",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/detecting-cryptomining-in-cloud"
+    },
+    {
+      "name": "detecting-dcsync-attack-in-active-directory",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/detecting-dcsync-attack-in-active-directory"
+    },
+    {
+      "name": "detecting-deepfake-audio-in-vishing-attacks",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/detecting-deepfake-audio-in-vishing-attacks"
+    },
+    {
+      "name": "detecting-dll-sideloading-attacks",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/detecting-dll-sideloading-attacks"
+    },
+    {
+      "name": "detecting-dnp3-protocol-anomalies",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/detecting-dnp3-protocol-anomalies"
+    },
+    {
+      "name": "detecting-dns-exfiltration-with-dns-query-analysis",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/detecting-dns-exfiltration-with-dns-query-analysis"
+    },
+    {
+      "name": "detecting-email-account-compromise",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/detecting-email-account-compromise"
+    },
+    {
+      "name": "detecting-email-forwarding-rules-attack",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/detecting-email-forwarding-rules-attack"
+    },
+    {
+      "name": "detecting-evasion-techniques-in-endpoint-logs",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/detecting-evasion-techniques-in-endpoint-logs"
+    },
+    {
+      "name": "detecting-exfiltration-over-dns-with-zeek",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/detecting-exfiltration-over-dns-with-zeek"
+    },
+    {
+      "name": "detecting-fileless-attacks-on-endpoints",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/detecting-fileless-attacks-on-endpoints"
+    },
+    {
+      "name": "detecting-fileless-malware-techniques",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/detecting-fileless-malware-techniques"
+    },
+    {
+      "name": "detecting-golden-ticket-attacks-in-kerberos-logs",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/detecting-golden-ticket-attacks-in-kerberos-logs"
+    },
+    {
+      "name": "detecting-golden-ticket-forgery",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/detecting-golden-ticket-forgery"
+    },
+    {
+      "name": "detecting-insider-data-exfiltration-via-dlp",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/detecting-insider-data-exfiltration-via-dlp"
+    },
+    {
+      "name": "detecting-insider-threat-behaviors",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/detecting-insider-threat-behaviors"
+    },
+    {
+      "name": "detecting-insider-threat-with-ueba",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/detecting-insider-threat-with-ueba"
+    },
+    {
+      "name": "detecting-kerberoasting-attacks",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/detecting-kerberoasting-attacks"
+    },
+    {
+      "name": "detecting-lateral-movement-in-network",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/detecting-lateral-movement-in-network"
+    },
+    {
+      "name": "detecting-lateral-movement-with-splunk",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/detecting-lateral-movement-with-splunk"
+    },
+    {
+      "name": "detecting-lateral-movement-with-zeek",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/detecting-lateral-movement-with-zeek"
+    },
+    {
+      "name": "detecting-living-off-the-land-attacks",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/detecting-living-off-the-land-attacks"
+    },
+    {
+      "name": "detecting-living-off-the-land-with-lolbas",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/detecting-living-off-the-land-with-lolbas"
+    },
+    {
+      "name": "detecting-malicious-scheduled-tasks-with-sysmon",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/detecting-malicious-scheduled-tasks-with-sysmon"
+    },
+    {
+      "name": "detecting-mimikatz-execution-patterns",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/detecting-mimikatz-execution-patterns"
+    },
+    {
+      "name": "detecting-misconfigured-azure-storage",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/detecting-misconfigured-azure-storage"
+    },
+    {
+      "name": "detecting-mobile-malware-behavior",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/detecting-mobile-malware-behavior"
+    },
+    {
+      "name": "detecting-modbus-command-injection-attacks",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/detecting-modbus-command-injection-attacks"
+    },
+    {
+      "name": "detecting-modbus-protocol-anomalies",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/detecting-modbus-protocol-anomalies"
+    },
+    {
+      "name": "detecting-network-anomalies-with-zeek",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/detecting-network-anomalies-with-zeek"
+    },
+    {
+      "name": "detecting-network-scanning-with-ids-signatures",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/detecting-network-scanning-with-ids-signatures"
+    },
+    {
+      "name": "detecting-ntlm-relay-with-event-correlation",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/detecting-ntlm-relay-with-event-correlation"
+    },
+    {
+      "name": "detecting-oauth-token-theft",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/detecting-oauth-token-theft"
+    },
+    {
+      "name": "detecting-pass-the-hash-attacks",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/detecting-pass-the-hash-attacks"
+    },
+    {
+      "name": "detecting-pass-the-ticket-attacks",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/detecting-pass-the-ticket-attacks"
+    },
+    {
+      "name": "detecting-port-scanning-with-fail2ban",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/detecting-port-scanning-with-fail2ban"
+    },
+    {
+      "name": "detecting-privilege-escalation-attempts",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/detecting-privilege-escalation-attempts"
+    },
+    {
+      "name": "detecting-privilege-escalation-in-kubernetes-pods",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/detecting-privilege-escalation-in-kubernetes-pods"
+    },
+    {
+      "name": "detecting-process-hollowing-technique",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/detecting-process-hollowing-technique"
+    },
+    {
+      "name": "detecting-process-injection-techniques",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/detecting-process-injection-techniques"
+    },
+    {
+      "name": "detecting-qr-code-phishing-with-email-security",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/detecting-qr-code-phishing-with-email-security"
+    },
+    {
+      "name": "detecting-ransomware-encryption-behavior",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/detecting-ransomware-encryption-behavior"
+    },
+    {
+      "name": "detecting-ransomware-precursors-in-network",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/detecting-ransomware-precursors-in-network"
+    },
+    {
+      "name": "detecting-rdp-brute-force-attacks",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/detecting-rdp-brute-force-attacks"
+    },
+    {
+      "name": "detecting-rootkit-activity",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/detecting-rootkit-activity"
+    },
+    {
+      "name": "detecting-s3-data-exfiltration-attempts",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/detecting-s3-data-exfiltration-attempts"
+    },
+    {
+      "name": "detecting-serverless-function-injection",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/detecting-serverless-function-injection"
+    },
+    {
+      "name": "detecting-service-account-abuse",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/detecting-service-account-abuse"
+    },
+    {
+      "name": "detecting-shadow-api-endpoints",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/detecting-shadow-api-endpoints"
+    },
+    {
+      "name": "detecting-shadow-it-cloud-usage",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/detecting-shadow-it-cloud-usage"
+    },
+    {
+      "name": "detecting-spearphishing-with-email-gateway",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/detecting-spearphishing-with-email-gateway"
+    },
+    {
+      "name": "detecting-sql-injection-via-waf-logs",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/detecting-sql-injection-via-waf-logs"
+    },
+    {
+      "name": "detecting-stuxnet-style-attacks",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/detecting-stuxnet-style-attacks"
+    },
+    {
+      "name": "detecting-supply-chain-attacks-in-ci-cd",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/detecting-supply-chain-attacks-in-ci-cd"
+    },
+    {
+      "name": "detecting-suspicious-oauth-application-consent",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/detecting-suspicious-oauth-application-consent"
+    },
+    {
+      "name": "detecting-suspicious-powershell-execution",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/detecting-suspicious-powershell-execution"
+    },
+    {
+      "name": "detecting-t1003-credential-dumping-with-edr",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/detecting-t1003-credential-dumping-with-edr"
+    },
+    {
+      "name": "detecting-t1055-process-injection-with-sysmon",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/detecting-t1055-process-injection-with-sysmon"
+    },
+    {
+      "name": "detecting-t1548-abuse-elevation-control-mechanism",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/detecting-t1548-abuse-elevation-control-mechanism"
+    },
+    {
+      "name": "detecting-typosquatting-packages-in-npm-pypi",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/detecting-typosquatting-packages-in-npm-pypi"
+    },
+    {
+      "name": "detecting-wmi-persistence",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/detecting-wmi-persistence"
+    },
+    {
+      "name": "devcontainer-setup",
+      "source": "trailofbits/skills",
+      "path": ".claude/skills/devcontainer-setup"
+    },
+    {
+      "name": "diagramming-code",
+      "source": "trailofbits/skills",
+      "path": ".claude/skills/diagramming-code"
+    },
+    {
+      "name": "differential-review",
+      "source": "trailofbits/skills",
+      "path": ".claude/skills/differential-review"
+    },
+    {
+      "name": "dimensional-analysis",
+      "source": "trailofbits/skills",
+      "path": ".claude/skills/dimensional-analysis"
+    },
+    {
+      "name": "doc-coauthoring",
+      "source": "anthropics/skills",
+      "path": ".claude/skills/doc-coauthoring"
+    },
+    {
+      "name": "docx",
+      "source": "anthropics/skills",
+      "path": ".claude/skills/docx"
+    },
+    {
+      "name": "dwarf-expert",
+      "source": "trailofbits/skills",
+      "path": ".claude/skills/dwarf-expert"
+    },
+    {
+      "name": "entry-point-analyzer",
+      "source": "trailofbits/skills",
+      "path": ".claude/skills/entry-point-analyzer"
+    },
+    {
+      "name": "eradicating-malware-from-infected-systems",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/eradicating-malware-from-infected-systems"
+    },
+    {
+      "name": "escalating-linux-privileges",
+      "source": "trilwu/secskills",
+      "path": ".claude/skills/escalating-linux-privileges"
+    },
+    {
+      "name": "escalating-windows-privileges",
+      "source": "trilwu/secskills",
+      "path": ".claude/skills/escalating-windows-privileges"
+    },
+    {
+      "name": "evaluating-threat-intelligence-platforms",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/evaluating-threat-intelligence-platforms"
+    },
+    {
+      "name": "executing-active-directory-attack-simulation",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/executing-active-directory-attack-simulation"
+    },
+    {
+      "name": "executing-phishing-simulation-campaign",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/executing-phishing-simulation-campaign"
+    },
+    {
+      "name": "executing-red-team-engagement-planning",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/executing-red-team-engagement-planning"
+    },
+    {
+      "name": "executing-red-team-exercise",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/executing-red-team-exercise"
+    },
+    {
+      "name": "exploiting-active-directory-certificate-services-esc1",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/exploiting-active-directory-certificate-services-esc1"
+    },
+    {
+      "name": "exploiting-active-directory-with-bloodhound",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/exploiting-active-directory-with-bloodhound"
+    },
+    {
+      "name": "exploiting-api-injection-vulnerabilities",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/exploiting-api-injection-vulnerabilities"
+    },
+    {
+      "name": "exploiting-bgp-hijacking-vulnerabilities",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/exploiting-bgp-hijacking-vulnerabilities"
+    },
+    {
+      "name": "exploiting-broken-function-level-authorization",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/exploiting-broken-function-level-authorization"
+    },
+    {
+      "name": "exploiting-broken-link-hijacking",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/exploiting-broken-link-hijacking"
+    },
+    {
+      "name": "exploiting-cloud-platforms",
+      "source": "trilwu/secskills",
+      "path": ".claude/skills/exploiting-cloud-platforms"
+    },
+    {
+      "name": "exploiting-constrained-delegation-abuse",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/exploiting-constrained-delegation-abuse"
+    },
+    {
+      "name": "exploiting-containers",
+      "source": "trilwu/secskills",
+      "path": ".claude/skills/exploiting-containers"
+    },
+    {
+      "name": "exploiting-deeplink-vulnerabilities",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/exploiting-deeplink-vulnerabilities"
+    },
+    {
+      "name": "exploiting-excessive-data-exposure-in-api",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/exploiting-excessive-data-exposure-in-api"
+    },
+    {
+      "name": "exploiting-http-request-smuggling",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/exploiting-http-request-smuggling"
+    },
+    {
+      "name": "exploiting-idor-vulnerabilities",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/exploiting-idor-vulnerabilities"
+    },
+    {
+      "name": "exploiting-insecure-data-storage-in-mobile",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/exploiting-insecure-data-storage-in-mobile"
+    },
+    {
+      "name": "exploiting-insecure-deserialization",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/exploiting-insecure-deserialization"
+    },
+    {
+      "name": "exploiting-ipv6-vulnerabilities",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/exploiting-ipv6-vulnerabilities"
+    },
+    {
+      "name": "exploiting-jwt-algorithm-confusion-attack",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/exploiting-jwt-algorithm-confusion-attack"
+    },
+    {
+      "name": "exploiting-kerberoasting-with-impacket",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/exploiting-kerberoasting-with-impacket"
+    },
+    {
+      "name": "exploiting-mass-assignment-in-rest-apis",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/exploiting-mass-assignment-in-rest-apis"
+    },
+    {
+      "name": "exploiting-ms17-010-eternalblue-vulnerability",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/exploiting-ms17-010-eternalblue-vulnerability"
+    },
+    {
+      "name": "exploiting-nopac-cve-2021-42278-42287",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/exploiting-nopac-cve-2021-42278-42287"
+    },
+    {
+      "name": "exploiting-nosql-injection-vulnerabilities",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/exploiting-nosql-injection-vulnerabilities"
+    },
+    {
+      "name": "exploiting-oauth-misconfiguration",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/exploiting-oauth-misconfiguration"
+    },
+    {
+      "name": "exploiting-prototype-pollution-in-javascript",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/exploiting-prototype-pollution-in-javascript"
+    },
+    {
+      "name": "exploiting-race-condition-vulnerabilities",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/exploiting-race-condition-vulnerabilities"
+    },
+    {
+      "name": "exploiting-server-side-request-forgery",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/exploiting-server-side-request-forgery"
+    },
+    {
+      "name": "exploiting-smb-vulnerabilities-with-metasploit",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/exploiting-smb-vulnerabilities-with-metasploit"
+    },
+    {
+      "name": "exploiting-sql-injection-vulnerabilities",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/exploiting-sql-injection-vulnerabilities"
+    },
+    {
+      "name": "exploiting-sql-injection-with-sqlmap",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/exploiting-sql-injection-with-sqlmap"
+    },
+    {
+      "name": "exploiting-template-injection-vulnerabilities",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/exploiting-template-injection-vulnerabilities"
+    },
+    {
+      "name": "exploiting-type-juggling-vulnerabilities",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/exploiting-type-juggling-vulnerabilities"
+    },
+    {
+      "name": "exploiting-vulnerabilities-with-metasploit-framework",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/exploiting-vulnerabilities-with-metasploit-framework"
+    },
+    {
+      "name": "exploiting-web3-smart-contracts",
+      "source": "trilwu/secskills",
+      "path": ".claude/skills/exploiting-web3-smart-contracts"
+    },
+    {
+      "name": "exploiting-websocket-vulnerabilities",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/exploiting-websocket-vulnerabilities"
+    },
+    {
+      "name": "exploiting-zerologon-vulnerability-cve-2020-1472",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/exploiting-zerologon-vulnerability-cve-2020-1472"
+    },
+    {
+      "name": "extracting-browser-history-artifacts",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/extracting-browser-history-artifacts"
+    },
+    {
+      "name": "extracting-config-from-agent-tesla-rat",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/extracting-config-from-agent-tesla-rat"
+    },
+    {
+      "name": "extracting-credentials-from-memory-dump",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/extracting-credentials-from-memory-dump"
+    },
+    {
+      "name": "extracting-iocs-from-malware-samples",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/extracting-iocs-from-malware-samples"
+    },
+    {
+      "name": "extracting-memory-artifacts-with-rekall",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/extracting-memory-artifacts-with-rekall"
+    },
+    {
+      "name": "extracting-windows-event-logs-artifacts",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/extracting-windows-event-logs-artifacts"
+    },
+    {
+      "name": "firebase-apk-scanner",
+      "source": "trailofbits/skills",
+      "path": ".claude/skills/firebase-apk-scanner"
+    },
+    {
+      "name": "fp-check",
+      "source": "trailofbits/skills",
+      "path": ".claude/skills/fp-check"
+    },
+    {
+      "name": "frontend-design",
+      "source": "anthropics/skills",
+      "path": ".claude/skills/frontend-design"
+    },
+    {
+      "name": "fuzzing-dictionary",
+      "source": "trailofbits/skills",
+      "path": ".claude/skills/fuzzing-dictionary"
+    },
+    {
+      "name": "fuzzing-obstacles",
+      "source": "trailofbits/skills",
+      "path": ".claude/skills/fuzzing-obstacles"
+    },
+    {
+      "name": "generating-threat-intelligence-reports",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/generating-threat-intelligence-reports"
+    },
+    {
+      "name": "genotoxic",
+      "source": "trailofbits/skills",
+      "path": ".claude/skills/genotoxic"
+    },
+    {
+      "name": "gh-cli",
+      "source": "trailofbits/skills",
+      "path": ".claude/skills/gh-cli"
+    },
+    {
+      "name": "git-cleanup",
+      "source": "trailofbits/skills",
+      "path": ".claude/skills/git-cleanup"
+    },
+    {
+      "name": "graph-evolution",
+      "source": "trailofbits/skills",
+      "path": ".claude/skills/graph-evolution"
+    },
+    {
+      "name": "guidelines-advisor",
+      "source": "trailofbits/skills",
+      "path": ".claude/skills/guidelines-advisor"
+    },
+    {
+      "name": "hardening-docker-containers-for-production",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/hardening-docker-containers-for-production"
+    },
+    {
+      "name": "hardening-docker-daemon-configuration",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/hardening-docker-daemon-configuration"
+    },
+    {
+      "name": "hardening-linux-endpoint-with-cis-benchmark",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/hardening-linux-endpoint-with-cis-benchmark"
+    },
+    {
+      "name": "hardening-windows-endpoint-with-cis-benchmark",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/hardening-windows-endpoint-with-cis-benchmark"
+    },
+    {
+      "name": "harness-writing",
+      "source": "trailofbits/skills",
+      "path": ".claude/skills/harness-writing"
+    },
+    {
+      "name": "hunting-advanced-persistent-threats",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/hunting-advanced-persistent-threats"
+    },
+    {
+      "name": "hunting-credential-stuffing-attacks",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/hunting-credential-stuffing-attacks"
+    },
+    {
+      "name": "hunting-for-anomalous-powershell-execution",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/hunting-for-anomalous-powershell-execution"
+    },
+    {
+      "name": "hunting-for-beaconing-with-frequency-analysis",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/hunting-for-beaconing-with-frequency-analysis"
+    },
+    {
+      "name": "hunting-for-cobalt-strike-beacons",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/hunting-for-cobalt-strike-beacons"
+    },
+    {
+      "name": "hunting-for-command-and-control-beaconing",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/hunting-for-command-and-control-beaconing"
+    },
+    {
+      "name": "hunting-for-data-exfiltration-indicators",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/hunting-for-data-exfiltration-indicators"
+    },
+    {
+      "name": "hunting-for-data-staging-before-exfiltration",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/hunting-for-data-staging-before-exfiltration"
+    },
+    {
+      "name": "hunting-for-dcom-lateral-movement",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/hunting-for-dcom-lateral-movement"
+    },
+    {
+      "name": "hunting-for-dcsync-attacks",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/hunting-for-dcsync-attacks"
+    },
+    {
+      "name": "hunting-for-defense-evasion-via-timestomping",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/hunting-for-defense-evasion-via-timestomping"
+    },
+    {
+      "name": "hunting-for-dns-based-persistence",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/hunting-for-dns-based-persistence"
+    },
+    {
+      "name": "hunting-for-dns-tunneling-with-zeek",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/hunting-for-dns-tunneling-with-zeek"
+    },
+    {
+      "name": "hunting-for-domain-fronting-c2-traffic",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/hunting-for-domain-fronting-c2-traffic"
+    },
+    {
+      "name": "hunting-for-lateral-movement-via-wmi",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/hunting-for-lateral-movement-via-wmi"
+    },
+    {
+      "name": "hunting-for-living-off-the-cloud-techniques",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/hunting-for-living-off-the-cloud-techniques"
+    },
+    {
+      "name": "hunting-for-living-off-the-land-binaries",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/hunting-for-living-off-the-land-binaries"
+    },
+    {
+      "name": "hunting-for-lolbins-execution-in-endpoint-logs",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/hunting-for-lolbins-execution-in-endpoint-logs"
+    },
+    {
+      "name": "hunting-for-ntlm-relay-attacks",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/hunting-for-ntlm-relay-attacks"
+    },
+    {
+      "name": "hunting-for-persistence-mechanisms-in-windows",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/hunting-for-persistence-mechanisms-in-windows"
+    },
+    {
+      "name": "hunting-for-persistence-via-wmi-subscriptions",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/hunting-for-persistence-via-wmi-subscriptions"
+    },
+    {
+      "name": "hunting-for-process-injection-techniques",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/hunting-for-process-injection-techniques"
+    },
+    {
+      "name": "hunting-for-registry-persistence-mechanisms",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/hunting-for-registry-persistence-mechanisms"
+    },
+    {
+      "name": "hunting-for-registry-run-key-persistence",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/hunting-for-registry-run-key-persistence"
+    },
+    {
+      "name": "hunting-for-scheduled-task-persistence",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/hunting-for-scheduled-task-persistence"
+    },
+    {
+      "name": "hunting-for-shadow-copy-deletion",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/hunting-for-shadow-copy-deletion"
+    },
+    {
+      "name": "hunting-for-spearphishing-indicators",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/hunting-for-spearphishing-indicators"
+    },
+    {
+      "name": "hunting-for-startup-folder-persistence",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/hunting-for-startup-folder-persistence"
+    },
+    {
+      "name": "hunting-for-supply-chain-compromise",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/hunting-for-supply-chain-compromise"
+    },
+    {
+      "name": "hunting-for-suspicious-scheduled-tasks",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/hunting-for-suspicious-scheduled-tasks"
+    },
+    {
+      "name": "hunting-for-t1098-account-manipulation",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/hunting-for-t1098-account-manipulation"
+    },
+    {
+      "name": "hunting-for-unusual-network-connections",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/hunting-for-unusual-network-connections"
+    },
+    {
+      "name": "hunting-for-unusual-service-installations",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/hunting-for-unusual-service-installations"
+    },
+    {
+      "name": "hunting-for-webshell-activity",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/hunting-for-webshell-activity"
+    },
+    {
+      "name": "implementing-aes-encryption-for-data-at-rest",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/implementing-aes-encryption-for-data-at-rest"
+    },
+    {
+      "name": "implementing-alert-fatigue-reduction",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/implementing-alert-fatigue-reduction"
+    },
+    {
+      "name": "implementing-anti-phishing-training-program",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/implementing-anti-phishing-training-program"
+    },
+    {
+      "name": "implementing-anti-ransomware-group-policy",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/implementing-anti-ransomware-group-policy"
+    },
+    {
+      "name": "implementing-api-abuse-detection-with-rate-limiting",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/implementing-api-abuse-detection-with-rate-limiting"
+    },
+    {
+      "name": "implementing-api-gateway-security-controls",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/implementing-api-gateway-security-controls"
+    },
+    {
+      "name": "implementing-api-key-security-controls",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/implementing-api-key-security-controls"
+    },
+    {
+      "name": "implementing-api-rate-limiting-and-throttling",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/implementing-api-rate-limiting-and-throttling"
+    },
+    {
+      "name": "implementing-api-schema-validation-security",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/implementing-api-schema-validation-security"
+    },
+    {
+      "name": "implementing-api-security-posture-management",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/implementing-api-security-posture-management"
+    },
+    {
+      "name": "implementing-api-security-testing-with-42crunch",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/implementing-api-security-testing-with-42crunch"
+    },
+    {
+      "name": "implementing-api-threat-protection-with-apigee",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/implementing-api-threat-protection-with-apigee"
+    },
+    {
+      "name": "implementing-application-whitelisting-with-applocker",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/implementing-application-whitelisting-with-applocker"
+    },
+    {
+      "name": "implementing-aqua-security-for-container-scanning",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/implementing-aqua-security-for-container-scanning"
+    },
+    {
+      "name": "implementing-attack-path-analysis-with-xm-cyber",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/implementing-attack-path-analysis-with-xm-cyber"
+    },
+    {
+      "name": "implementing-attack-surface-management",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/implementing-attack-surface-management"
+    },
+    {
+      "name": "implementing-aws-config-rules-for-compliance",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/implementing-aws-config-rules-for-compliance"
+    },
+    {
+      "name": "implementing-aws-iam-permission-boundaries",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/implementing-aws-iam-permission-boundaries"
+    },
+    {
+      "name": "implementing-aws-macie-for-data-classification",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/implementing-aws-macie-for-data-classification"
+    },
+    {
+      "name": "implementing-aws-nitro-enclave-security",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/implementing-aws-nitro-enclave-security"
+    },
+    {
+      "name": "implementing-aws-security-hub",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/implementing-aws-security-hub"
+    },
+    {
+      "name": "implementing-aws-security-hub-compliance",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/implementing-aws-security-hub-compliance"
+    },
+    {
+      "name": "implementing-azure-ad-privileged-identity-management",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/implementing-azure-ad-privileged-identity-management"
+    },
+    {
+      "name": "implementing-azure-defender-for-cloud",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/implementing-azure-defender-for-cloud"
+    },
+    {
+      "name": "implementing-beyondcorp-zero-trust-access-model",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/implementing-beyondcorp-zero-trust-access-model"
+    },
+    {
+      "name": "implementing-bgp-security-with-rpki",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/implementing-bgp-security-with-rpki"
+    },
+    {
+      "name": "implementing-browser-isolation-for-zero-trust",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/implementing-browser-isolation-for-zero-trust"
+    },
+    {
+      "name": "implementing-canary-tokens-for-network-intrusion",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/implementing-canary-tokens-for-network-intrusion"
+    },
+    {
+      "name": "implementing-cisa-zero-trust-maturity-model",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/implementing-cisa-zero-trust-maturity-model"
+    },
+    {
+      "name": "implementing-cloud-dlp-for-data-protection",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/implementing-cloud-dlp-for-data-protection"
+    },
+    {
+      "name": "implementing-cloud-security-posture-management",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/implementing-cloud-security-posture-management"
+    },
+    {
+      "name": "implementing-cloud-trail-log-analysis",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/implementing-cloud-trail-log-analysis"
+    },
+    {
+      "name": "implementing-cloud-vulnerability-posture-management",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/implementing-cloud-vulnerability-posture-management"
+    },
+    {
+      "name": "implementing-cloud-waf-rules",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/implementing-cloud-waf-rules"
+    },
+    {
+      "name": "implementing-cloud-workload-protection",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/implementing-cloud-workload-protection"
+    },
+    {
+      "name": "implementing-code-signing-for-artifacts",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/implementing-code-signing-for-artifacts"
+    },
+    {
+      "name": "implementing-conditional-access-policies-azure-ad",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/implementing-conditional-access-policies-azure-ad"
+    },
+    {
+      "name": "implementing-conduit-security-for-ot-remote-access",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/implementing-conduit-security-for-ot-remote-access"
+    },
+    {
+      "name": "implementing-container-image-minimal-base-with-distroless",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/implementing-container-image-minimal-base-with-distroless"
+    },
+    {
+      "name": "implementing-container-network-policies-with-calico",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/implementing-container-network-policies-with-calico"
+    },
+    {
+      "name": "implementing-continuous-security-validation-with-bas",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/implementing-continuous-security-validation-with-bas"
+    },
+    {
+      "name": "implementing-data-loss-prevention-with-microsoft-purview",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/implementing-data-loss-prevention-with-microsoft-purview"
+    },
+    {
+      "name": "implementing-ddos-mitigation-with-cloudflare",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/implementing-ddos-mitigation-with-cloudflare"
+    },
+    {
+      "name": "implementing-deception-based-detection-with-canarytoken",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/implementing-deception-based-detection-with-canarytoken"
+    },
+    {
+      "name": "implementing-delinea-secret-server-for-pam",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/implementing-delinea-secret-server-for-pam"
+    },
+    {
+      "name": "implementing-device-posture-assessment-in-zero-trust",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/implementing-device-posture-assessment-in-zero-trust"
+    },
+    {
+      "name": "implementing-devsecops-security-scanning",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/implementing-devsecops-security-scanning"
+    },
+    {
+      "name": "implementing-diamond-model-analysis",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/implementing-diamond-model-analysis"
+    },
+    {
+      "name": "implementing-digital-signatures-with-ed25519",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/implementing-digital-signatures-with-ed25519"
+    },
+    {
+      "name": "implementing-disk-encryption-with-bitlocker",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/implementing-disk-encryption-with-bitlocker"
+    },
+    {
+      "name": "implementing-dmarc-dkim-spf-email-security",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/implementing-dmarc-dkim-spf-email-security"
+    },
+    {
+      "name": "implementing-dragos-platform-for-ot-monitoring",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/implementing-dragos-platform-for-ot-monitoring"
+    },
+    {
+      "name": "implementing-ebpf-security-monitoring",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/implementing-ebpf-security-monitoring"
+    },
+    {
+      "name": "implementing-email-sandboxing-with-proofpoint",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/implementing-email-sandboxing-with-proofpoint"
+    },
+    {
+      "name": "implementing-end-to-end-encryption-for-messaging",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/implementing-end-to-end-encryption-for-messaging"
+    },
+    {
+      "name": "implementing-endpoint-detection-with-wazuh",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/implementing-endpoint-detection-with-wazuh"
+    },
+    {
+      "name": "implementing-endpoint-dlp-controls",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/implementing-endpoint-dlp-controls"
+    },
+    {
+      "name": "implementing-envelope-encryption-with-aws-kms",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/implementing-envelope-encryption-with-aws-kms"
+    },
+    {
+      "name": "implementing-epss-score-for-vulnerability-prioritization",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/implementing-epss-score-for-vulnerability-prioritization"
+    },
+    {
+      "name": "implementing-file-integrity-monitoring-with-aide",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/implementing-file-integrity-monitoring-with-aide"
+    },
+    {
+      "name": "implementing-fuzz-testing-in-cicd-with-aflplusplus",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/implementing-fuzz-testing-in-cicd-with-aflplusplus"
+    },
+    {
+      "name": "implementing-gcp-binary-authorization",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/implementing-gcp-binary-authorization"
+    },
+    {
+      "name": "implementing-gcp-organization-policy-constraints",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/implementing-gcp-organization-policy-constraints"
+    },
+    {
+      "name": "implementing-gcp-vpc-firewall-rules",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/implementing-gcp-vpc-firewall-rules"
+    },
+    {
+      "name": "implementing-gdpr-data-protection-controls",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/implementing-gdpr-data-protection-controls"
+    },
+    {
+      "name": "implementing-gdpr-data-subject-access-request",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/implementing-gdpr-data-subject-access-request"
+    },
+    {
+      "name": "implementing-github-advanced-security-for-code-scanning",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/implementing-github-advanced-security-for-code-scanning"
+    },
+    {
+      "name": "implementing-google-workspace-admin-security",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/implementing-google-workspace-admin-security"
+    },
+    {
+      "name": "implementing-google-workspace-phishing-protection",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/implementing-google-workspace-phishing-protection"
+    },
+    {
+      "name": "implementing-google-workspace-sso-configuration",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/implementing-google-workspace-sso-configuration"
+    },
+    {
+      "name": "implementing-hardware-security-key-authentication",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/implementing-hardware-security-key-authentication"
+    },
+    {
+      "name": "implementing-hashicorp-vault-dynamic-secrets",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/implementing-hashicorp-vault-dynamic-secrets"
+    },
+    {
+      "name": "implementing-honeypot-for-ransomware-detection",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/implementing-honeypot-for-ransomware-detection"
+    },
+    {
+      "name": "implementing-honeytokens-for-breach-detection",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/implementing-honeytokens-for-breach-detection"
+    },
+    {
+      "name": "implementing-ics-firewall-with-tofino",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/implementing-ics-firewall-with-tofino"
+    },
+    {
+      "name": "implementing-identity-governance-with-sailpoint",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/implementing-identity-governance-with-sailpoint"
+    },
+    {
+      "name": "implementing-identity-verification-for-zero-trust",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/implementing-identity-verification-for-zero-trust"
+    },
+    {
+      "name": "implementing-iec-62443-security-zones",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/implementing-iec-62443-security-zones"
+    },
+    {
+      "name": "implementing-image-provenance-verification-with-cosign",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/implementing-image-provenance-verification-with-cosign"
+    },
+    {
+      "name": "implementing-immutable-backup-with-restic",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/implementing-immutable-backup-with-restic"
+    },
+    {
+      "name": "implementing-infrastructure-as-code-security-scanning",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/implementing-infrastructure-as-code-security-scanning"
+    },
+    {
+      "name": "implementing-iso-27001-information-security-management",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/implementing-iso-27001-information-security-management"
+    },
+    {
+      "name": "implementing-just-in-time-access-provisioning",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/implementing-just-in-time-access-provisioning"
+    },
+    {
+      "name": "implementing-jwt-signing-and-verification",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/implementing-jwt-signing-and-verification"
+    },
+    {
+      "name": "implementing-kubernetes-network-policy-with-calico",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/implementing-kubernetes-network-policy-with-calico"
+    },
+    {
+      "name": "implementing-kubernetes-pod-security-standards",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/implementing-kubernetes-pod-security-standards"
+    },
+    {
+      "name": "implementing-llm-guardrails-for-security",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/implementing-llm-guardrails-for-security"
+    },
+    {
+      "name": "implementing-log-forwarding-with-fluentd",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/implementing-log-forwarding-with-fluentd"
+    },
+    {
+      "name": "implementing-log-integrity-with-blockchain",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/implementing-log-integrity-with-blockchain"
+    },
+    {
+      "name": "implementing-memory-protection-with-dep-aslr",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/implementing-memory-protection-with-dep-aslr"
+    },
+    {
+      "name": "implementing-microsegmentation-with-guardicore",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/implementing-microsegmentation-with-guardicore"
+    },
+    {
+      "name": "implementing-mimecast-targeted-attack-protection",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/implementing-mimecast-targeted-attack-protection"
+    },
+    {
+      "name": "implementing-mitre-attack-coverage-mapping",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/implementing-mitre-attack-coverage-mapping"
+    },
+    {
+      "name": "implementing-mobile-application-management",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/implementing-mobile-application-management"
+    },
+    {
+      "name": "implementing-mtls-for-zero-trust-services",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/implementing-mtls-for-zero-trust-services"
+    },
+    {
+      "name": "implementing-nerc-cip-compliance-controls",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/implementing-nerc-cip-compliance-controls"
+    },
+    {
+      "name": "implementing-network-access-control",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/implementing-network-access-control"
+    },
+    {
+      "name": "implementing-network-access-control-with-cisco-ise",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/implementing-network-access-control-with-cisco-ise"
+    },
+    {
+      "name": "implementing-network-deception-with-honeypots",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/implementing-network-deception-with-honeypots"
+    },
+    {
+      "name": "implementing-network-intrusion-prevention-with-suricata",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/implementing-network-intrusion-prevention-with-suricata"
+    },
+    {
+      "name": "implementing-network-policies-for-kubernetes",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/implementing-network-policies-for-kubernetes"
+    },
+    {
+      "name": "implementing-network-segmentation-for-ot",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/implementing-network-segmentation-for-ot"
+    },
+    {
+      "name": "implementing-network-segmentation-with-firewall-zones",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/implementing-network-segmentation-with-firewall-zones"
+    },
+    {
+      "name": "implementing-network-traffic-analysis-with-arkime",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/implementing-network-traffic-analysis-with-arkime"
+    },
+    {
+      "name": "implementing-network-traffic-baselining",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/implementing-network-traffic-baselining"
+    },
+    {
+      "name": "implementing-next-generation-firewall-with-palo-alto",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/implementing-next-generation-firewall-with-palo-alto"
+    },
+    {
+      "name": "implementing-opa-gatekeeper-for-policy-enforcement",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/implementing-opa-gatekeeper-for-policy-enforcement"
+    },
+    {
+      "name": "implementing-ot-incident-response-playbook",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/implementing-ot-incident-response-playbook"
+    },
+    {
+      "name": "implementing-ot-network-traffic-analysis-with-nozomi",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/implementing-ot-network-traffic-analysis-with-nozomi"
+    },
+    {
+      "name": "implementing-pam-for-database-access",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/implementing-pam-for-database-access"
+    },
+    {
+      "name": "implementing-passwordless-auth-with-microsoft-entra",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/implementing-passwordless-auth-with-microsoft-entra"
+    },
+    {
+      "name": "implementing-passwordless-authentication-with-fido2",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/implementing-passwordless-authentication-with-fido2"
+    },
+    {
+      "name": "implementing-patch-management-for-ot-systems",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/implementing-patch-management-for-ot-systems"
+    },
+    {
+      "name": "implementing-patch-management-workflow",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/implementing-patch-management-workflow"
+    },
+    {
+      "name": "implementing-pci-dss-compliance-controls",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/implementing-pci-dss-compliance-controls"
+    },
+    {
+      "name": "implementing-pod-security-admission-controller",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/implementing-pod-security-admission-controller"
+    },
+    {
+      "name": "implementing-policy-as-code-with-open-policy-agent",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/implementing-policy-as-code-with-open-policy-agent"
+    },
+    {
+      "name": "implementing-privileged-access-management-with-cyberark",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/implementing-privileged-access-management-with-cyberark"
+    },
+    {
+      "name": "implementing-privileged-access-workstation",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/implementing-privileged-access-workstation"
+    },
+    {
+      "name": "implementing-privileged-session-monitoring",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/implementing-privileged-session-monitoring"
+    },
+    {
+      "name": "implementing-proofpoint-email-security-gateway",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/implementing-proofpoint-email-security-gateway"
+    },
+    {
+      "name": "implementing-purdue-model-network-segmentation",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/implementing-purdue-model-network-segmentation"
+    },
+    {
+      "name": "implementing-ransomware-backup-strategy",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/implementing-ransomware-backup-strategy"
+    },
+    {
+      "name": "implementing-ransomware-kill-switch-detection",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/implementing-ransomware-kill-switch-detection"
+    },
+    {
+      "name": "implementing-rapid7-insightvm-for-scanning",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/implementing-rapid7-insightvm-for-scanning"
+    },
+    {
+      "name": "implementing-rbac-hardening-for-kubernetes",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/implementing-rbac-hardening-for-kubernetes"
+    },
+    {
+      "name": "implementing-rsa-key-pair-management",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/implementing-rsa-key-pair-management"
+    },
+    {
+      "name": "implementing-runtime-application-self-protection",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/implementing-runtime-application-self-protection"
+    },
+    {
+      "name": "implementing-runtime-security-with-tetragon",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/implementing-runtime-security-with-tetragon"
+    },
+    {
+      "name": "implementing-saml-sso-with-okta",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/implementing-saml-sso-with-okta"
+    },
+    {
+      "name": "implementing-scim-provisioning-with-okta",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/implementing-scim-provisioning-with-okta"
+    },
+    {
+      "name": "implementing-secret-scanning-with-gitleaks",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/implementing-secret-scanning-with-gitleaks"
+    },
+    {
+      "name": "implementing-secrets-management-with-vault",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/implementing-secrets-management-with-vault"
+    },
+    {
+      "name": "implementing-secrets-scanning-in-ci-cd",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/implementing-secrets-scanning-in-ci-cd"
+    },
+    {
+      "name": "implementing-security-chaos-engineering",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/implementing-security-chaos-engineering"
+    },
+    {
+      "name": "implementing-security-information-sharing-with-stix2",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/implementing-security-information-sharing-with-stix2"
+    },
+    {
+      "name": "implementing-security-monitoring-with-datadog",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/implementing-security-monitoring-with-datadog"
+    },
+    {
+      "name": "implementing-semgrep-for-custom-sast-rules",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/implementing-semgrep-for-custom-sast-rules"
+    },
+    {
+      "name": "implementing-siem-correlation-rules-for-apt",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/implementing-siem-correlation-rules-for-apt"
+    },
+    {
+      "name": "implementing-siem-use-case-tuning",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/implementing-siem-use-case-tuning"
+    },
+    {
+      "name": "implementing-siem-use-cases-for-detection",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/implementing-siem-use-cases-for-detection"
+    },
+    {
+      "name": "implementing-sigstore-for-software-signing",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/implementing-sigstore-for-software-signing"
+    },
+    {
+      "name": "implementing-soar-automation-with-phantom",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/implementing-soar-automation-with-phantom"
+    },
+    {
+      "name": "implementing-soar-playbook-for-phishing",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/implementing-soar-playbook-for-phishing"
+    },
+    {
+      "name": "implementing-soar-playbook-with-palo-alto-xsoar",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/implementing-soar-playbook-with-palo-alto-xsoar"
+    },
+    {
+      "name": "implementing-stix-taxii-feed-integration",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/implementing-stix-taxii-feed-integration"
+    },
+    {
+      "name": "implementing-supply-chain-security-with-in-toto",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/implementing-supply-chain-security-with-in-toto"
+    },
+    {
+      "name": "implementing-syslog-centralization-with-rsyslog",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/implementing-syslog-centralization-with-rsyslog"
+    },
+    {
+      "name": "implementing-taxii-server-with-opentaxii",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/implementing-taxii-server-with-opentaxii"
+    },
+    {
+      "name": "implementing-threat-intelligence-lifecycle-management",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/implementing-threat-intelligence-lifecycle-management"
+    },
+    {
+      "name": "implementing-threat-modeling-with-mitre-attack",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/implementing-threat-modeling-with-mitre-attack"
+    },
+    {
+      "name": "implementing-ticketing-system-for-incidents",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/implementing-ticketing-system-for-incidents"
+    },
+    {
+      "name": "implementing-usb-device-control-policy",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/implementing-usb-device-control-policy"
+    },
+    {
+      "name": "implementing-velociraptor-for-ir-collection",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/implementing-velociraptor-for-ir-collection"
+    },
+    {
+      "name": "implementing-vulnerability-management-with-greenbone",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/implementing-vulnerability-management-with-greenbone"
+    },
+    {
+      "name": "implementing-vulnerability-remediation-sla",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/implementing-vulnerability-remediation-sla"
+    },
+    {
+      "name": "implementing-vulnerability-sla-breach-alerting",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/implementing-vulnerability-sla-breach-alerting"
+    },
+    {
+      "name": "implementing-web-application-logging-with-modsecurity",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/implementing-web-application-logging-with-modsecurity"
+    },
+    {
+      "name": "implementing-zero-knowledge-proof-for-authentication",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/implementing-zero-knowledge-proof-for-authentication"
+    },
+    {
+      "name": "implementing-zero-standing-privilege-with-cyberark",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/implementing-zero-standing-privilege-with-cyberark"
+    },
+    {
+      "name": "implementing-zero-trust-dns-with-nextdns",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/implementing-zero-trust-dns-with-nextdns"
+    },
+    {
+      "name": "implementing-zero-trust-for-saas-applications",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/implementing-zero-trust-for-saas-applications"
+    },
+    {
+      "name": "implementing-zero-trust-in-cloud",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/implementing-zero-trust-in-cloud"
+    },
+    {
+      "name": "implementing-zero-trust-network-access",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/implementing-zero-trust-network-access"
+    },
+    {
+      "name": "implementing-zero-trust-network-access-with-zscaler",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/implementing-zero-trust-network-access-with-zscaler"
+    },
+    {
+      "name": "implementing-zero-trust-with-beyondcorp",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/implementing-zero-trust-with-beyondcorp"
+    },
+    {
+      "name": "implementing-zero-trust-with-hashicorp-boundary",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/implementing-zero-trust-with-hashicorp-boundary"
+    },
+    {
+      "name": "insecure-defaults",
+      "source": "trailofbits/skills",
+      "path": ".claude/skills/insecure-defaults"
+    },
+    {
+      "name": "integrating-dast-with-owasp-zap-in-pipeline",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/integrating-dast-with-owasp-zap-in-pipeline"
+    },
+    {
+      "name": "integrating-sast-into-github-actions-pipeline",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/integrating-sast-into-github-actions-pipeline"
+    },
+    {
+      "name": "intercepting-mobile-traffic-with-burpsuite",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/intercepting-mobile-traffic-with-burpsuite"
+    },
+    {
+      "name": "internal-comms",
+      "source": "anthropics/skills",
+      "path": ".claude/skills/internal-comms"
+    },
+    {
+      "name": "interpreting-culture-index",
+      "source": "trailofbits/skills",
+      "path": ".claude/skills/interpreting-culture-index"
+    },
+    {
+      "name": "investigating-insider-threat-indicators",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/investigating-insider-threat-indicators"
+    },
+    {
+      "name": "investigating-phishing-email-incident",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/investigating-phishing-email-incident"
+    },
+    {
+      "name": "investigating-ransomware-attack-artifacts",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/investigating-ransomware-attack-artifacts"
+    },
+    {
+      "name": "let-fate-decide",
+      "source": "trailofbits/skills",
+      "path": ".claude/skills/let-fate-decide"
+    },
+    {
+      "name": "libafl",
+      "source": "trailofbits/skills",
+      "path": ".claude/skills/libafl"
+    },
+    {
+      "name": "libfuzzer",
+      "source": "trailofbits/skills",
+      "path": ".claude/skills/libfuzzer"
+    },
+    {
+      "name": "llm-testing",
+      "source": "Eyadkelleh/awesome-skills-security",
+      "path": ".claude/skills/llm-testing"
+    },
+    {
+      "name": "managing-cloud-identity-with-okta",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/managing-cloud-identity-with-okta"
+    },
+    {
+      "name": "managing-intelligence-lifecycle",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/managing-intelligence-lifecycle"
+    },
+    {
+      "name": "mapping-mitre-attack-techniques",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/mapping-mitre-attack-techniques"
+    },
+    {
+      "name": "mcp-builder",
+      "source": "anthropics/skills",
+      "path": ".claude/skills/mcp-builder"
+    },
+    {
+      "name": "mermaid-to-proverif",
+      "source": "trailofbits/skills",
+      "path": ".claude/skills/mermaid-to-proverif"
+    },
+    {
+      "name": "modern-python",
+      "source": "trailofbits/skills",
+      "path": ".claude/skills/modern-python"
+    },
+    {
+      "name": "monitoring-darkweb-sources",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/monitoring-darkweb-sources"
+    },
+    {
+      "name": "monitoring-scada-modbus-traffic-anomalies",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/monitoring-scada-modbus-traffic-anomalies"
+    },
+    {
+      "name": "mutation-testing",
+      "source": "trailofbits/skills",
+      "path": ".claude/skills/mutation-testing"
+    },
+    {
+      "name": "ossfuzz",
+      "source": "trailofbits/skills",
+      "path": ".claude/skills/ossfuzz"
+    },
+    {
+      "name": "pdf",
+      "source": "anthropics/skills",
+      "path": ".claude/skills/pdf"
+    },
+    {
+      "name": "performing-access-recertification-with-saviynt",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/performing-access-recertification-with-saviynt"
+    },
+    {
+      "name": "performing-access-review-and-certification",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/performing-access-review-and-certification"
+    },
+    {
+      "name": "performing-active-directory-bloodhound-analysis",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/performing-active-directory-bloodhound-analysis"
+    },
+    {
+      "name": "performing-active-directory-compromise-investigation",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/performing-active-directory-compromise-investigation"
+    },
+    {
+      "name": "performing-active-directory-forest-trust-attack",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/performing-active-directory-forest-trust-attack"
+    },
+    {
+      "name": "performing-active-directory-penetration-test",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/performing-active-directory-penetration-test"
+    },
+    {
+      "name": "performing-active-directory-vulnerability-assessment",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/performing-active-directory-vulnerability-assessment"
+    },
+    {
+      "name": "performing-adversary-in-the-middle-phishing-detection",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/performing-adversary-in-the-middle-phishing-detection"
+    },
+    {
+      "name": "performing-agentless-vulnerability-scanning",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/performing-agentless-vulnerability-scanning"
+    },
+    {
+      "name": "performing-ai-driven-osint-correlation",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/performing-ai-driven-osint-correlation"
+    },
+    {
+      "name": "performing-alert-triage-with-elastic-siem",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/performing-alert-triage-with-elastic-siem"
+    },
+    {
+      "name": "performing-android-app-static-analysis-with-mobsf",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/performing-android-app-static-analysis-with-mobsf"
+    },
+    {
+      "name": "performing-api-fuzzing-with-restler",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/performing-api-fuzzing-with-restler"
+    },
+    {
+      "name": "performing-api-inventory-and-discovery",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/performing-api-inventory-and-discovery"
+    },
+    {
+      "name": "performing-api-rate-limiting-bypass",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/performing-api-rate-limiting-bypass"
+    },
+    {
+      "name": "performing-api-security-testing-with-postman",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/performing-api-security-testing-with-postman"
+    },
+    {
+      "name": "performing-arp-spoofing-attack-simulation",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/performing-arp-spoofing-attack-simulation"
+    },
+    {
+      "name": "performing-asset-criticality-scoring-for-vulns",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/performing-asset-criticality-scoring-for-vulns"
+    },
+    {
+      "name": "performing-authenticated-scan-with-openvas",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/performing-authenticated-scan-with-openvas"
+    },
+    {
+      "name": "performing-authenticated-vulnerability-scan",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/performing-authenticated-vulnerability-scan"
+    },
+    {
+      "name": "performing-automated-malware-analysis-with-cape",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/performing-automated-malware-analysis-with-cape"
+    },
+    {
+      "name": "performing-aws-account-enumeration-with-scout-suite",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/performing-aws-account-enumeration-with-scout-suite"
+    },
+    {
+      "name": "performing-aws-privilege-escalation-assessment",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/performing-aws-privilege-escalation-assessment"
+    },
+    {
+      "name": "performing-bandwidth-throttling-attack-simulation",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/performing-bandwidth-throttling-attack-simulation"
+    },
+    {
+      "name": "performing-binary-exploitation-analysis",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/performing-binary-exploitation-analysis"
+    },
+    {
+      "name": "performing-blind-ssrf-exploitation",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/performing-blind-ssrf-exploitation"
+    },
+    {
+      "name": "performing-bluetooth-security-assessment",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/performing-bluetooth-security-assessment"
+    },
+    {
+      "name": "performing-brand-monitoring-for-impersonation",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/performing-brand-monitoring-for-impersonation"
+    },
+    {
+      "name": "performing-clickjacking-attack-test",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/performing-clickjacking-attack-test"
+    },
+    {
+      "name": "performing-cloud-asset-inventory-with-cartography",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/performing-cloud-asset-inventory-with-cartography"
+    },
+    {
+      "name": "performing-cloud-forensics-investigation",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/performing-cloud-forensics-investigation"
+    },
+    {
+      "name": "performing-cloud-forensics-with-aws-cloudtrail",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/performing-cloud-forensics-with-aws-cloudtrail"
+    },
+    {
+      "name": "performing-cloud-incident-containment-procedures",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/performing-cloud-incident-containment-procedures"
+    },
+    {
+      "name": "performing-cloud-log-forensics-with-athena",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/performing-cloud-log-forensics-with-athena"
+    },
+    {
+      "name": "performing-cloud-native-forensics-with-falco",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/performing-cloud-native-forensics-with-falco"
+    },
+    {
+      "name": "performing-cloud-native-threat-hunting-with-aws-detective",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/performing-cloud-native-threat-hunting-with-aws-detective"
+    },
+    {
+      "name": "performing-cloud-penetration-testing-with-pacu",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/performing-cloud-penetration-testing-with-pacu"
+    },
+    {
+      "name": "performing-cloud-storage-forensic-acquisition",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/performing-cloud-storage-forensic-acquisition"
+    },
+    {
+      "name": "performing-container-escape-detection",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/performing-container-escape-detection"
+    },
+    {
+      "name": "performing-container-image-hardening",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/performing-container-image-hardening"
+    },
+    {
+      "name": "performing-container-security-scanning-with-trivy",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/performing-container-security-scanning-with-trivy"
+    },
+    {
+      "name": "performing-content-security-policy-bypass",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/performing-content-security-policy-bypass"
+    },
+    {
+      "name": "performing-credential-access-with-lazagne",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/performing-credential-access-with-lazagne"
+    },
+    {
+      "name": "performing-cryptographic-audit-of-application",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/performing-cryptographic-audit-of-application"
+    },
+    {
+      "name": "performing-csrf-attack-simulation",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/performing-csrf-attack-simulation"
+    },
+    {
+      "name": "performing-cve-prioritization-with-kev-catalog",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/performing-cve-prioritization-with-kev-catalog"
+    },
+    {
+      "name": "performing-dark-web-monitoring-for-threats",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/performing-dark-web-monitoring-for-threats"
+    },
+    {
+      "name": "performing-deception-technology-deployment",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/performing-deception-technology-deployment"
+    },
+    {
+      "name": "performing-directory-traversal-testing",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/performing-directory-traversal-testing"
+    },
+    {
+      "name": "performing-disk-forensics-investigation",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/performing-disk-forensics-investigation"
+    },
+    {
+      "name": "performing-dmarc-policy-enforcement-rollout",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/performing-dmarc-policy-enforcement-rollout"
+    },
+    {
+      "name": "performing-dns-enumeration-and-zone-transfer",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/performing-dns-enumeration-and-zone-transfer"
+    },
+    {
+      "name": "performing-dns-tunneling-detection",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/performing-dns-tunneling-detection"
+    },
+    {
+      "name": "performing-docker-bench-security-assessment",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/performing-docker-bench-security-assessment"
+    },
+    {
+      "name": "performing-dynamic-analysis-of-android-app",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/performing-dynamic-analysis-of-android-app"
+    },
+    {
+      "name": "performing-dynamic-analysis-with-any-run",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/performing-dynamic-analysis-with-any-run"
+    },
+    {
+      "name": "performing-endpoint-forensics-investigation",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/performing-endpoint-forensics-investigation"
+    },
+    {
+      "name": "performing-endpoint-vulnerability-remediation",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/performing-endpoint-vulnerability-remediation"
+    },
+    {
+      "name": "performing-entitlement-review-with-sailpoint-iiq",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/performing-entitlement-review-with-sailpoint-iiq"
+    },
+    {
+      "name": "performing-external-network-penetration-test",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/performing-external-network-penetration-test"
+    },
+    {
+      "name": "performing-false-positive-reduction-in-siem",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/performing-false-positive-reduction-in-siem"
+    },
+    {
+      "name": "performing-file-carving-with-foremost",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/performing-file-carving-with-foremost"
+    },
+    {
+      "name": "performing-firmware-extraction-with-binwalk",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/performing-firmware-extraction-with-binwalk"
+    },
+    {
+      "name": "performing-firmware-malware-analysis",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/performing-firmware-malware-analysis"
+    },
+    {
+      "name": "performing-fuzzing-with-aflplusplus",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/performing-fuzzing-with-aflplusplus"
+    },
+    {
+      "name": "performing-gcp-penetration-testing-with-gcpbucketbrute",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/performing-gcp-penetration-testing-with-gcpbucketbrute"
+    },
+    {
+      "name": "performing-gcp-security-assessment-with-forseti",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/performing-gcp-security-assessment-with-forseti"
+    },
+    {
+      "name": "performing-graphql-depth-limit-attack",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/performing-graphql-depth-limit-attack"
+    },
+    {
+      "name": "performing-graphql-introspection-attack",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/performing-graphql-introspection-attack"
+    },
+    {
+      "name": "performing-graphql-security-assessment",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/performing-graphql-security-assessment"
+    },
+    {
+      "name": "performing-hardware-security-module-integration",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/performing-hardware-security-module-integration"
+    },
+    {
+      "name": "performing-hash-cracking-with-hashcat",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/performing-hash-cracking-with-hashcat"
+    },
+    {
+      "name": "performing-http-parameter-pollution-attack",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/performing-http-parameter-pollution-attack"
+    },
+    {
+      "name": "performing-ics-asset-discovery-with-claroty",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/performing-ics-asset-discovery-with-claroty"
+    },
+    {
+      "name": "performing-indicator-lifecycle-management",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/performing-indicator-lifecycle-management"
+    },
+    {
+      "name": "performing-initial-access-with-evilginx3",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/performing-initial-access-with-evilginx3"
+    },
+    {
+      "name": "performing-insider-threat-investigation",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/performing-insider-threat-investigation"
+    },
+    {
+      "name": "performing-ioc-enrichment-automation",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/performing-ioc-enrichment-automation"
+    },
+    {
+      "name": "performing-ios-app-security-assessment",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/performing-ios-app-security-assessment"
+    },
+    {
+      "name": "performing-iot-security-assessment",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/performing-iot-security-assessment"
+    },
+    {
+      "name": "performing-ip-reputation-analysis-with-shodan",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/performing-ip-reputation-analysis-with-shodan"
+    },
+    {
+      "name": "performing-jwt-none-algorithm-attack",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/performing-jwt-none-algorithm-attack"
+    },
+    {
+      "name": "performing-kerberoasting-attack",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/performing-kerberoasting-attack"
+    },
+    {
+      "name": "performing-kubernetes-cis-benchmark-with-kube-bench",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/performing-kubernetes-cis-benchmark-with-kube-bench"
+    },
+    {
+      "name": "performing-kubernetes-etcd-security-assessment",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/performing-kubernetes-etcd-security-assessment"
+    },
+    {
+      "name": "performing-kubernetes-penetration-testing",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/performing-kubernetes-penetration-testing"
+    },
+    {
+      "name": "performing-lateral-movement-detection",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/performing-lateral-movement-detection"
+    },
+    {
+      "name": "performing-lateral-movement-with-wmiexec",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/performing-lateral-movement-with-wmiexec"
+    },
+    {
+      "name": "performing-linux-log-forensics-investigation",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/performing-linux-log-forensics-investigation"
+    },
+    {
+      "name": "performing-log-analysis-for-forensic-investigation",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/performing-log-analysis-for-forensic-investigation"
+    },
+    {
+      "name": "performing-log-source-onboarding-in-siem",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/performing-log-source-onboarding-in-siem"
+    },
+    {
+      "name": "performing-malware-hash-enrichment-with-virustotal",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/performing-malware-hash-enrichment-with-virustotal"
+    },
+    {
+      "name": "performing-malware-ioc-extraction",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/performing-malware-ioc-extraction"
+    },
+    {
+      "name": "performing-malware-persistence-investigation",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/performing-malware-persistence-investigation"
+    },
+    {
+      "name": "performing-malware-triage-with-yara",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/performing-malware-triage-with-yara"
+    },
+    {
+      "name": "performing-memory-forensics-with-volatility3",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/performing-memory-forensics-with-volatility3"
+    },
+    {
+      "name": "performing-memory-forensics-with-volatility3-plugins",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/performing-memory-forensics-with-volatility3-plugins"
+    },
+    {
+      "name": "performing-mobile-app-certificate-pinning-bypass",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/performing-mobile-app-certificate-pinning-bypass"
+    },
+    {
+      "name": "performing-mobile-device-forensics-with-cellebrite",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/performing-mobile-device-forensics-with-cellebrite"
+    },
+    {
+      "name": "performing-network-forensics-with-wireshark",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/performing-network-forensics-with-wireshark"
+    },
+    {
+      "name": "performing-network-packet-capture-analysis",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/performing-network-packet-capture-analysis"
+    },
+    {
+      "name": "performing-network-traffic-analysis-with-tshark",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/performing-network-traffic-analysis-with-tshark"
+    },
+    {
+      "name": "performing-network-traffic-analysis-with-zeek",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/performing-network-traffic-analysis-with-zeek"
+    },
+    {
+      "name": "performing-nist-csf-maturity-assessment",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/performing-nist-csf-maturity-assessment"
+    },
+    {
+      "name": "performing-oauth-scope-minimization-review",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/performing-oauth-scope-minimization-review"
+    },
+    {
+      "name": "performing-oil-gas-cybersecurity-assessment",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/performing-oil-gas-cybersecurity-assessment"
+    },
+    {
+      "name": "performing-open-source-intelligence-gathering",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/performing-open-source-intelligence-gathering"
+    },
+    {
+      "name": "performing-osint-with-spiderfoot",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/performing-osint-with-spiderfoot"
+    },
+    {
+      "name": "performing-ot-network-security-assessment",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/performing-ot-network-security-assessment"
+    },
+    {
+      "name": "performing-ot-vulnerability-assessment-with-claroty",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/performing-ot-vulnerability-assessment-with-claroty"
+    },
+    {
+      "name": "performing-ot-vulnerability-scanning-safely",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/performing-ot-vulnerability-scanning-safely"
+    },
+    {
+      "name": "performing-packet-injection-attack",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/performing-packet-injection-attack"
+    },
+    {
+      "name": "performing-paste-site-monitoring-for-credentials",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/performing-paste-site-monitoring-for-credentials"
+    },
+    {
+      "name": "performing-phishing-simulation-with-gophish",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/performing-phishing-simulation-with-gophish"
+    },
+    {
+      "name": "performing-physical-intrusion-assessment",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/performing-physical-intrusion-assessment"
+    },
+    {
+      "name": "performing-plc-firmware-security-analysis",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/performing-plc-firmware-security-analysis"
+    },
+    {
+      "name": "performing-post-quantum-cryptography-migration",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/performing-post-quantum-cryptography-migration"
+    },
+    {
+      "name": "performing-power-grid-cybersecurity-assessment",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/performing-power-grid-cybersecurity-assessment"
+    },
+    {
+      "name": "performing-privacy-impact-assessment",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/performing-privacy-impact-assessment"
+    },
+    {
+      "name": "performing-privilege-escalation-assessment",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/performing-privilege-escalation-assessment"
+    },
+    {
+      "name": "performing-privilege-escalation-on-linux",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/performing-privilege-escalation-on-linux"
+    },
+    {
+      "name": "performing-privileged-account-access-review",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/performing-privileged-account-access-review"
+    },
+    {
+      "name": "performing-privileged-account-discovery",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/performing-privileged-account-discovery"
+    },
+    {
+      "name": "performing-purple-team-atomic-testing",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/performing-purple-team-atomic-testing"
+    },
+    {
+      "name": "performing-purple-team-exercise",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/performing-purple-team-exercise"
+    },
+    {
+      "name": "performing-ransomware-response",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/performing-ransomware-response"
+    },
+    {
+      "name": "performing-ransomware-tabletop-exercise",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/performing-ransomware-tabletop-exercise"
+    },
+    {
+      "name": "performing-reconnaissance",
+      "source": "trilwu/secskills",
+      "path": ".claude/skills/performing-reconnaissance"
+    },
+    {
+      "name": "performing-red-team-phishing-with-gophish",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/performing-red-team-phishing-with-gophish"
+    },
+    {
+      "name": "performing-red-team-with-covenant",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/performing-red-team-with-covenant"
+    },
+    {
+      "name": "performing-s7comm-protocol-security-analysis",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/performing-s7comm-protocol-security-analysis"
+    },
+    {
+      "name": "performing-sca-dependency-scanning-with-snyk",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/performing-sca-dependency-scanning-with-snyk"
+    },
+    {
+      "name": "performing-scada-hmi-security-assessment",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/performing-scada-hmi-security-assessment"
+    },
+    {
+      "name": "performing-second-order-sql-injection",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/performing-second-order-sql-injection"
+    },
+    {
+      "name": "performing-security-headers-audit",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/performing-security-headers-audit"
+    },
+    {
+      "name": "performing-serverless-function-security-review",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/performing-serverless-function-security-review"
+    },
+    {
+      "name": "performing-service-account-audit",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/performing-service-account-audit"
+    },
+    {
+      "name": "performing-service-account-credential-rotation",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/performing-service-account-credential-rotation"
+    },
+    {
+      "name": "performing-soap-web-service-security-testing",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/performing-soap-web-service-security-testing"
+    },
+    {
+      "name": "performing-soc-tabletop-exercise",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/performing-soc-tabletop-exercise"
+    },
+    {
+      "name": "performing-soc2-type2-audit-preparation",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/performing-soc2-type2-audit-preparation"
+    },
+    {
+      "name": "performing-social-engineering",
+      "source": "trilwu/secskills",
+      "path": ".claude/skills/performing-social-engineering"
+    },
+    {
+      "name": "performing-sqlite-database-forensics",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/performing-sqlite-database-forensics"
+    },
+    {
+      "name": "performing-ssl-certificate-lifecycle-management",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/performing-ssl-certificate-lifecycle-management"
+    },
+    {
+      "name": "performing-ssl-stripping-attack",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/performing-ssl-stripping-attack"
+    },
+    {
+      "name": "performing-ssl-tls-inspection-configuration",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/performing-ssl-tls-inspection-configuration"
+    },
+    {
+      "name": "performing-ssl-tls-security-assessment",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/performing-ssl-tls-security-assessment"
+    },
+    {
+      "name": "performing-ssrf-vulnerability-exploitation",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/performing-ssrf-vulnerability-exploitation"
+    },
+    {
+      "name": "performing-static-malware-analysis-with-pe-studio",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/performing-static-malware-analysis-with-pe-studio"
+    },
+    {
+      "name": "performing-steganography-detection",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/performing-steganography-detection"
+    },
+    {
+      "name": "performing-subdomain-enumeration-with-subfinder",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/performing-subdomain-enumeration-with-subfinder"
+    },
+    {
+      "name": "performing-supply-chain-attack-simulation",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/performing-supply-chain-attack-simulation"
+    },
+    {
+      "name": "performing-thick-client-application-penetration-test",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/performing-thick-client-application-penetration-test"
+    },
+    {
+      "name": "performing-threat-emulation-with-atomic-red-team",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/performing-threat-emulation-with-atomic-red-team"
+    },
+    {
+      "name": "performing-threat-hunting-with-elastic-siem",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/performing-threat-hunting-with-elastic-siem"
+    },
+    {
+      "name": "performing-threat-hunting-with-yara-rules",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/performing-threat-hunting-with-yara-rules"
+    },
+    {
+      "name": "performing-threat-intelligence-sharing-with-misp",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/performing-threat-intelligence-sharing-with-misp"
+    },
+    {
+      "name": "performing-threat-landscape-assessment-for-sector",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/performing-threat-landscape-assessment-for-sector"
+    },
+    {
+      "name": "performing-threat-modeling-with-owasp-threat-dragon",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/performing-threat-modeling-with-owasp-threat-dragon"
+    },
+    {
+      "name": "performing-timeline-reconstruction-with-plaso",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/performing-timeline-reconstruction-with-plaso"
+    },
+    {
+      "name": "performing-user-behavior-analytics",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/performing-user-behavior-analytics"
+    },
+    {
+      "name": "performing-vlan-hopping-attack",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/performing-vlan-hopping-attack"
+    },
+    {
+      "name": "performing-vulnerability-scanning-with-nessus",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/performing-vulnerability-scanning-with-nessus"
+    },
+    {
+      "name": "performing-web-application-firewall-bypass",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/performing-web-application-firewall-bypass"
+    },
+    {
+      "name": "performing-web-application-penetration-test",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/performing-web-application-penetration-test"
+    },
+    {
+      "name": "performing-web-application-scanning-with-nikto",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/performing-web-application-scanning-with-nikto"
+    },
+    {
+      "name": "performing-web-application-vulnerability-triage",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/performing-web-application-vulnerability-triage"
+    },
+    {
+      "name": "performing-web-cache-deception-attack",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/performing-web-cache-deception-attack"
+    },
+    {
+      "name": "performing-web-cache-poisoning-attack",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/performing-web-cache-poisoning-attack"
+    },
+    {
+      "name": "performing-wifi-password-cracking-with-aircrack",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/performing-wifi-password-cracking-with-aircrack"
+    },
+    {
+      "name": "performing-windows-artifact-analysis-with-eric-zimmerman-tools",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/performing-windows-artifact-analysis-with-eric-zimmerman-tools"
+    },
+    {
+      "name": "performing-wireless-network-penetration-test",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/performing-wireless-network-penetration-test"
+    },
+    {
+      "name": "performing-wireless-security-assessment-with-kismet",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/performing-wireless-security-assessment-with-kismet"
+    },
+    {
+      "name": "performing-yara-rule-development-for-detection",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/performing-yara-rule-development-for-detection"
+    },
+    {
+      "name": "pptx",
+      "source": "anthropics/skills",
+      "path": ".claude/skills/pptx"
+    },
+    {
+      "name": "prioritizing-vulnerabilities-with-cvss-scoring",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/prioritizing-vulnerabilities-with-cvss-scoring"
+    },
+    {
+      "name": "processing-stix-taxii-feeds",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/processing-stix-taxii-feeds"
+    },
+    {
+      "name": "profiling-threat-actor-groups",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/profiling-threat-actor-groups"
+    },
+    {
+      "name": "property-based-testing",
+      "source": "trailofbits/skills",
+      "path": ".claude/skills/property-based-testing"
+    },
+    {
+      "name": "recovering-deleted-files-with-photorec",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/recovering-deleted-files-with-photorec"
+    },
+    {
+      "name": "recovering-from-ransomware-attack",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/recovering-from-ransomware-attack"
+    },
+    {
+      "name": "remediating-s3-bucket-misconfiguration",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/remediating-s3-bucket-misconfiguration"
+    },
+    {
+      "name": "reverse-engineering-android-malware-with-jadx",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/reverse-engineering-android-malware-with-jadx"
+    },
+    {
+      "name": "reverse-engineering-dotnet-malware-with-dnspy",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/reverse-engineering-dotnet-malware-with-dnspy"
+    },
+    {
+      "name": "reverse-engineering-ios-app-with-frida",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/reverse-engineering-ios-app-with-frida"
+    },
+    {
+      "name": "reverse-engineering-malware-with-ghidra",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/reverse-engineering-malware-with-ghidra"
+    },
+    {
+      "name": "reverse-engineering-ransomware-encryption-routine",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/reverse-engineering-ransomware-encryption-routine"
+    },
+    {
+      "name": "reverse-engineering-rust-malware",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/reverse-engineering-rust-malware"
+    },
+    {
+      "name": "ruzzy",
+      "source": "trailofbits/skills",
+      "path": ".claude/skills/ruzzy"
+    },
+    {
+      "name": "sarif-parsing",
+      "source": "trailofbits/skills",
+      "path": ".claude/skills/sarif-parsing"
+    },
+    {
+      "name": "scanning-container-images-with-grype",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/scanning-container-images-with-grype"
+    },
+    {
+      "name": "scanning-containers-with-trivy-in-cicd",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/scanning-containers-with-trivy-in-cicd"
+    },
+    {
+      "name": "scanning-docker-images-with-trivy",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/scanning-docker-images-with-trivy"
+    },
+    {
+      "name": "scanning-infrastructure-with-nessus",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/scanning-infrastructure-with-nessus"
+    },
+    {
+      "name": "scanning-kubernetes-manifests-with-kubesec",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/scanning-kubernetes-manifests-with-kubesec"
+    },
+    {
+      "name": "scanning-network-with-nmap-advanced",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/scanning-network-with-nmap-advanced"
+    },
+    {
+      "name": "seatbelt-sandboxer",
+      "source": "trailofbits/skills",
+      "path": ".claude/skills/seatbelt-sandboxer"
+    },
+    {
+      "name": "second-opinion",
+      "source": "trailofbits/skills",
+      "path": ".claude/skills/second-opinion"
+    },
+    {
+      "name": "secure-workflow-guide",
+      "source": "trailofbits/skills",
+      "path": ".claude/skills/secure-workflow-guide"
+    },
+    {
+      "name": "securing-api-gateway-with-aws-waf",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/securing-api-gateway-with-aws-waf"
+    },
+    {
+      "name": "securing-aws-iam-permissions",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/securing-aws-iam-permissions"
+    },
+    {
+      "name": "securing-aws-lambda-execution-roles",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/securing-aws-lambda-execution-roles"
+    },
+    {
+      "name": "securing-azure-with-microsoft-defender",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/securing-azure-with-microsoft-defender"
+    },
+    {
+      "name": "securing-container-registry-images",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/securing-container-registry-images"
+    },
+    {
+      "name": "securing-container-registry-with-harbor",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/securing-container-registry-with-harbor"
+    },
+    {
+      "name": "securing-github-actions-workflows",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/securing-github-actions-workflows"
+    },
+    {
+      "name": "securing-helm-chart-deployments",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/securing-helm-chart-deployments"
+    },
+    {
+      "name": "securing-historian-server-in-ot-environment",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/securing-historian-server-in-ot-environment"
+    },
+    {
+      "name": "securing-kubernetes-on-cloud",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/securing-kubernetes-on-cloud"
+    },
+    {
+      "name": "securing-remote-access-to-ot-environment",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/securing-remote-access-to-ot-environment"
+    },
+    {
+      "name": "securing-serverless-functions",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/securing-serverless-functions"
+    },
+    {
+      "name": "security-fuzzing",
+      "source": "Eyadkelleh/awesome-skills-security",
+      "path": ".claude/skills/security-fuzzing"
+    },
+    {
+      "name": "security-passwords",
+      "source": "Eyadkelleh/awesome-skills-security",
+      "path": ".claude/skills/security-passwords"
+    },
+    {
+      "name": "security-patterns",
+      "source": "Eyadkelleh/awesome-skills-security",
+      "path": ".claude/skills/security-patterns"
+    },
+    {
+      "name": "security-payloads",
+      "source": "Eyadkelleh/awesome-skills-security",
+      "path": ".claude/skills/security-payloads"
+    },
+    {
+      "name": "security-usernames",
+      "source": "Eyadkelleh/awesome-skills-security",
+      "path": ".claude/skills/security-usernames"
+    },
+    {
+      "name": "security-webshells",
+      "source": "Eyadkelleh/awesome-skills-security",
+      "path": ".claude/skills/security-webshells"
+    },
+    {
+      "name": "semgrep",
+      "source": "trailofbits/skills",
+      "path": ".claude/skills/semgrep"
+    },
+    {
+      "name": "semgrep-rule-creator",
+      "source": "trailofbits/skills",
+      "path": ".claude/skills/semgrep-rule-creator"
+    },
+    {
+      "name": "semgrep-rule-variant-creator",
+      "source": "trailofbits/skills",
+      "path": ".claude/skills/semgrep-rule-variant-creator"
+    },
+    {
+      "name": "sharp-edges",
+      "source": "trailofbits/skills",
+      "path": ".claude/skills/sharp-edges"
+    },
+    {
+      "name": "skill-creator",
+      "source": "anthropics/skills",
+      "path": ".claude/skills/skill-creator"
+    },
+    {
+      "name": "skill-improver",
+      "source": "trailofbits/skills",
+      "path": ".claude/skills/skill-improver"
+    },
+    {
+      "name": "slack-gif-creator",
+      "source": "anthropics/skills",
+      "path": ".claude/skills/slack-gif-creator"
+    },
+    {
+      "name": "solana-vulnerability-scanner",
+      "source": "trailofbits/skills",
+      "path": ".claude/skills/solana-vulnerability-scanner"
+    },
+    {
+      "name": "spec-to-code-compliance",
+      "source": "trailofbits/skills",
+      "path": ".claude/skills/spec-to-code-compliance"
+    },
+    {
+      "name": "substrate-vulnerability-scanner",
+      "source": "trailofbits/skills",
+      "path": ".claude/skills/substrate-vulnerability-scanner"
+    },
+    {
+      "name": "supply-chain-risk-auditor",
+      "source": "trailofbits/skills",
+      "path": ".claude/skills/supply-chain-risk-auditor"
+    },
+    {
+      "name": "testing-android-intents-for-vulnerabilities",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/testing-android-intents-for-vulnerabilities"
+    },
+    {
+      "name": "testing-api-authentication-weaknesses",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/testing-api-authentication-weaknesses"
+    },
+    {
+      "name": "testing-api-for-broken-object-level-authorization",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/testing-api-for-broken-object-level-authorization"
+    },
+    {
+      "name": "testing-api-for-mass-assignment-vulnerability",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/testing-api-for-mass-assignment-vulnerability"
+    },
+    {
+      "name": "testing-api-security-with-owasp-top-10",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/testing-api-security-with-owasp-top-10"
+    },
+    {
+      "name": "testing-apis",
+      "source": "trilwu/secskills",
+      "path": ".claude/skills/testing-apis"
+    },
+    {
+      "name": "testing-cors-misconfiguration",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/testing-cors-misconfiguration"
+    },
+    {
+      "name": "testing-for-broken-access-control",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/testing-for-broken-access-control"
+    },
+    {
+      "name": "testing-for-business-logic-vulnerabilities",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/testing-for-business-logic-vulnerabilities"
+    },
+    {
+      "name": "testing-for-email-header-injection",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/testing-for-email-header-injection"
+    },
+    {
+      "name": "testing-for-host-header-injection",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/testing-for-host-header-injection"
+    },
+    {
+      "name": "testing-for-json-web-token-vulnerabilities",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/testing-for-json-web-token-vulnerabilities"
+    },
+    {
+      "name": "testing-for-open-redirect-vulnerabilities",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/testing-for-open-redirect-vulnerabilities"
+    },
+    {
+      "name": "testing-for-sensitive-data-exposure",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/testing-for-sensitive-data-exposure"
+    },
+    {
+      "name": "testing-for-xml-injection-vulnerabilities",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/testing-for-xml-injection-vulnerabilities"
+    },
+    {
+      "name": "testing-for-xss-vulnerabilities",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/testing-for-xss-vulnerabilities"
+    },
+    {
+      "name": "testing-for-xss-vulnerabilities-with-burpsuite",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/testing-for-xss-vulnerabilities-with-burpsuite"
+    },
+    {
+      "name": "testing-for-xxe-injection-vulnerabilities",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/testing-for-xxe-injection-vulnerabilities"
+    },
+    {
+      "name": "testing-handbook-generator",
+      "source": "trailofbits/skills",
+      "path": ".claude/skills/testing-handbook-generator"
+    },
+    {
+      "name": "testing-jwt-token-security",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/testing-jwt-token-security"
+    },
+    {
+      "name": "testing-mobile-api-authentication",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/testing-mobile-api-authentication"
+    },
+    {
+      "name": "testing-mobile-applications",
+      "source": "trilwu/secskills",
+      "path": ".claude/skills/testing-mobile-applications"
+    },
+    {
+      "name": "testing-oauth2-implementation-flaws",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/testing-oauth2-implementation-flaws"
+    },
+    {
+      "name": "testing-ransomware-recovery-procedures",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/testing-ransomware-recovery-procedures"
+    },
+    {
+      "name": "testing-websocket-api-security",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/testing-websocket-api-security"
+    },
+    {
+      "name": "theme-factory",
+      "source": "anthropics/skills",
+      "path": ".claude/skills/theme-factory"
+    },
+    {
+      "name": "token-integration-analyzer",
+      "source": "trailofbits/skills",
+      "path": ".claude/skills/token-integration-analyzer"
+    },
+    {
+      "name": "ton-vulnerability-scanner",
+      "source": "trailofbits/skills",
+      "path": ".claude/skills/ton-vulnerability-scanner"
+    },
+    {
+      "name": "tracking-threat-actor-infrastructure",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/tracking-threat-actor-infrastructure"
+    },
+    {
+      "name": "trailmark",
+      "source": "trailofbits/skills",
+      "path": ".claude/skills/trailmark"
+    },
+    {
+      "name": "trailmark-structural",
+      "source": "trailofbits/skills",
+      "path": ".claude/skills/trailmark-structural"
+    },
+    {
+      "name": "trailmark-summary",
+      "source": "trailofbits/skills",
+      "path": ".claude/skills/trailmark-summary"
+    },
+    {
+      "name": "transferring-files",
+      "source": "trilwu/secskills",
+      "path": ".claude/skills/transferring-files"
+    },
+    {
+      "name": "triaging-security-alerts-in-splunk",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/triaging-security-alerts-in-splunk"
+    },
+    {
+      "name": "triaging-security-incident",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/triaging-security-incident"
+    },
+    {
+      "name": "triaging-security-incident-with-ir-playbook",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/triaging-security-incident-with-ir-playbook"
+    },
+    {
+      "name": "triaging-vulnerabilities-with-ssvc-framework",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/triaging-vulnerabilities-with-ssvc-framework"
+    },
+    {
+      "name": "validating-backup-integrity-for-recovery",
+      "source": "mukul975/Anthropic-Cybersecurity-Skills",
+      "path": ".claude/skills/validating-backup-integrity-for-recovery"
+    },
+    {
+      "name": "variant-analysis",
+      "source": "trailofbits/skills",
+      "path": ".claude/skills/variant-analysis"
+    },
+    {
+      "name": "vector-forge",
+      "source": "trailofbits/skills",
+      "path": ".claude/skills/vector-forge"
+    },
+    {
+      "name": "web-artifacts-builder",
+      "source": "anthropics/skills",
+      "path": ".claude/skills/web-artifacts-builder"
+    },
+    {
+      "name": "webapp-testing",
+      "source": "anthropics/skills",
+      "path": ".claude/skills/webapp-testing"
+    },
+    {
+      "name": "wycheproof",
+      "source": "trailofbits/skills",
+      "path": ".claude/skills/wycheproof"
+    },
+    {
+      "name": "xlsx",
+      "source": "anthropics/skills",
+      "path": ".claude/skills/xlsx"
+    },
+    {
+      "name": "yara-rule-authoring",
+      "source": "trailofbits/skills",
+      "path": ".claude/skills/yara-rule-authoring"
+    },
+    {
+      "name": "zeroize-audit",
+      "source": "trailofbits/skills",
+      "path": ".claude/skills/zeroize-audit"
+    }
+  ]
+}

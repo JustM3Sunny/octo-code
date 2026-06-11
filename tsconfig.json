@@ -1,0 +1,25 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+    "noEmit": true,
+    "baseUrl": ".",
+    "paths": {
+      "@siya/common/*": ["./common/src/*"],
+      "@siya/sdk": ["./sdk/src/index.ts"],
+      "@siya/sdk/*": ["./sdk/*"],
+      "@siya/agent-runtime/*": ["./packages/agent-runtime/src/*"],
+      "@siya/llm-providers/*": ["./packages/llm-providers/src/*"],
+      "@siya/code-map/*": ["./packages/code-map/*"]
+    }
+  },
+  "files": [],
+  "references": [
+    { "path": "./common" },
+    { "path": "./agents" },
+    { "path": "./sdk" },
+    { "path": "./cli" },
+    { "path": "./packages/agent-runtime" },
+    { "path": "./packages/code-map" },
+    { "path": "./packages/llm-providers" }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "@siya/sdk-tree-sitter-queries-test",
+  "version": "0.0.1",
+  "private": true,
+  "type": "commonjs",
+  "scripts": {
+    "test:all": "node test-query-files.js"
+  },
+  "dependencies": {
+    "@siya/sdk": "file:../.."
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "types": ["bun", "node"],
+    "baseUrl": ".",
+    "paths": {
+      "@siya/sdk": ["../../sdk/src/index.ts"],
+      "@siya/common/*": ["../../common/src/*"]
+    }
+  },
+  "include": ["src/**/*.ts"],
+  "exclude": ["node_modules", "dist"]
+}

@@ -1,0 +1,245 @@
+import { useCallback, useEffect, useMemo, useRef, useState } from 'react'
+import { useShallow } from 'zustand/react/shallow'
+
+import { Chat } from './chat'
+import { ChatHistoryScreen } from './components/chat-history-screen'
+import { ProjectPickerScreen } from './components/project-picker-screen'
+import { TerminalLink } from './components/terminal-link'
+import { useLogo } from './hooks/use-logo'
+import { useSheenAnimation } from './hooks/use-sheen-animation'
+import { useTerminalDimensions } from './hooks/use-terminal-dimensions'
+import { useTerminalFocus } from './hooks/use-terminal-focus'
+import { useTheme } from './hooks/use-theme'
+import { getProjectRoot } from './project-files'
+import { useChatHistoryStore } from './state/chat-history-store'
+import { useChatStore } from './state/chat-store'
+import type { TopBannerType } from './types/store'
+import { findGitRoot } from './utils/git'
+import { openFileAtPath } from './utils/open-file'
+import { formatCwd } from './utils/path-helpers'
+import { getLogoBlockColor, getLogoAccentColor } from './utils/theme-system'
+
+import type { MultilineInputHandle } from './components/multiline-input'
+import type { AgentMode } from './utils/constants'
+import type { FileTreeNode } from '@siya/common/util/file'
+
+interface AppProps {
+  initialPrompt: string | null
+  agentId?: string
+  fileTree: FileTreeNode[]
+  continueChat: boolean
+  continueChatId?: string
+  initialMode?: AgentMode
+  showProjectPicker: boolean
+  onProjectChange: (projectPath: string) => void
+}
+
+export const App = ({
+  initialPrompt,
+  agentId,
+  fileTree,
+  continueChat,
+  continueChatId,
+  initialMode,
+  showProjectPicker,
+  onProjectChange,
+}: AppProps) => {
+  const { contentMaxWidth, terminalWidth } = useTerminalDimensions()
+  const theme = useTheme()
+
+  const [sheenPosition, setSheenPosition] = useState(0)
+  const blockColor = getLogoBlockColor(theme.name)
+  const accentColor = getLogoAccentColor(theme.name)
+  const { applySheenToChar } = useSheenAnimation({
+    logoColor: theme.foreground,
+    accentColor,
+    blockColor,
+    terminalWidth,
+    sheenPosition,
+    setSheenPosition,
+  })
+
+  const { component: logoComponent } = useLogo({
+    availableWidth: contentMaxWidth,
+    accentColor,
+    blockColor,
+    applySheenToChar,
+  })
+
+  const inputRef = useRef<MultilineInputHandle | null>(null)
+  const {
+    setInputFocused,
+    setIsFocusSupported,
+    resetChatStore,
+    activeTopBanner,
+    setActiveTopBanner,
+    closeTopBanner,
+  } = useChatStore(
+    useShallow((store) => ({
+      setInputFocused: store.setInputFocused,
+      setIsFocusSupported: store.setIsFocusSupported,
+      resetChatStore: store.reset,
+      activeTopBanner: store.activeTopBanner,
+      setActiveTopBanner: store.setActiveTopBanner,
+      closeTopBanner: store.closeTopBanner,
+    })),
+  )
+
+  const handleSupportDetected = useCallback(() => {
+    setIsFocusSupported(true)
+  }, [setIsFocusSupported])
+
+  useTerminalFocus({
+    onFocusChange: setInputFocused,
+    onSupportDetected: handleSupportDetected,
+  })
+
+  const projectRoot = getProjectRoot()
+  const gitRoot = useMemo(
+    () => findGitRoot({ cwd: projectRoot }),
+    [projectRoot],
+  )
+  const showGitRootBanner = Boolean(gitRoot && gitRoot !== projectRoot)
+  const [gitRootBannerDismissed, setGitRootBannerDismissed] = useState(false)
+  const prevTopBannerRef = useRef<TopBannerType | null>(null)
+
+  useEffect(() => {
+    setGitRootBannerDismissed(false)
+  }, [projectRoot])
+
+  useEffect(() => {
+    const prevBanner = prevTopBannerRef.current
+    if (
+      prevBanner === 'gitRoot' &&
+      activeTopBanner === null &&
+      showGitRootBanner
+    ) {
+      setGitRootBannerDismissed(true)
+    }
+    prevTopBannerRef.current = activeTopBanner
+  }, [activeTopBanner, showGitRootBanner])
+
+  useEffect(() => {
+    if (!showGitRootBanner) {
+      if (activeTopBanner === 'gitRoot') {
+        closeTopBanner()
+      }
+      return
+    }
+    if (!gitRootBannerDismissed && activeTopBanner === null) {
+      setActiveTopBanner('gitRoot')
+    }
+  }, [
+    activeTopBanner,
+    closeTopBanner,
+    gitRootBannerDismissed,
+    setActiveTopBanner,
+    showGitRootBanner,
+  ])
+
+  const handleSwitchToGitRoot = useCallback(() => {
+    if (gitRoot) {
+      onProjectChange(gitRoot)
+    }
+  }, [gitRoot, onProjectChange])
+
+  const { showChatHistory, closeChatHistory } = useChatHistoryStore()
+  const [resumeChatId, setResumeChatId] = useState<string | null>(null)
+
+  const handleResumeChat = useCallback(
+    (chatId: string) => {
+      closeChatHistory()
+      resetChatStore()
+      setResumeChatId(chatId)
+    },
+    [closeChatHistory, resetChatStore],
+  )
+
+  const handleNewChat = useCallback(() => {
+    closeChatHistory()
+    resetChatStore()
+    setResumeChatId(null)
+  }, [closeChatHistory, resetChatStore])
+
+  const effectiveContinueChat = continueChat || resumeChatId !== null
+  const effectiveContinueChatId = resumeChatId ?? continueChatId
+
+  const headerContent = useMemo(() => {
+    const displayPath = formatCwd(projectRoot)
+
+    return (
+      <box
+        style={{
+          flexDirection: 'column',
+          gap: 0,
+          paddingLeft: 1,
+          paddingRight: 1,
+        }}
+      >
+        <box
+          style={{
+            flexDirection: 'column',
+            marginBottom: 1,
+            marginTop: 2,
+          }}
+        >
+          {logoComponent}
+        </box>
+        <text
+          style={{ wrapMode: 'word', marginBottom: 1, fg: theme.foreground }}
+        >
+          Siya will run commands on your behalf to help you build.
+        </text>
+        <text
+          style={{ wrapMode: 'word', marginBottom: 1, fg: theme.foreground }}
+        >
+          Directory{' '}
+          <TerminalLink
+            text={displayPath}
+            color={theme.muted}
+            inline={true}
+            underlineOnHover={true}
+            onActivate={() => openFileAtPath(projectRoot)}
+          />
+        </text>
+      </box>
+    )
+  }, [logoComponent, projectRoot, theme])
+
+  if (showProjectPicker) {
+    return (
+      <ProjectPickerScreen
+        onSelectProject={onProjectChange}
+        initialPath={projectRoot}
+      />
+    )
+  }
+
+  const chatKey = resumeChatId ?? 'current'
+
+  if (showChatHistory) {
+    return (
+      <ChatHistoryScreen
+        onSelectChat={handleResumeChat}
+        onCancel={closeChatHistory}
+        onNewChat={handleNewChat}
+      />
+    )
+  }
+
+  return (
+    <Chat
+      key={chatKey}
+      headerContent={headerContent}
+      initialPrompt={initialPrompt}
+      agentId={agentId}
+      fileTree={fileTree}
+      inputRef={inputRef}
+      continueChat={effectiveContinueChat}
+      continueChatId={effectiveContinueChatId}
+      initialMode={initialMode}
+      gitRoot={gitRoot}
+      onSwitchToGitRoot={handleSwitchToGitRoot}
+    />
+  )
+}

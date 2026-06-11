@@ -1,0 +1,38 @@
+{
+  "compilerOptions": {
+    "target": "ES2023",
+    "lib": ["ESNext", "DOM"],
+    "module": "ES2022",
+    "moduleResolution": "bundler",
+    "allowImportingTsExtensions": false,
+
+    "outDir": "dist",
+    "strict": true,
+    "declaration": true,
+    "declarationMap": true,
+    "skipLibCheck": true,
+    "types": ["node"],
+    "emitDeclarationOnly": true,
+    "esModuleInterop": true,
+    "isolatedModules": true,
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitReturns": true,
+    "exactOptionalPropertyTypes": false,
+    "stripInternal": true,
+    "baseUrl": ".",
+    "paths": {
+      "@siya/common/*": ["../common/src/*"],
+      "@siya/agent-runtime/*": ["../packages/agent-runtime/src/*"],
+      "@siya/code-map": ["../packages/code-map/src/index.ts"],
+      "@siya/code-map/*": ["../packages/code-map/src/*"],
+      "@siya/llm-providers/*": ["../packages/llm-providers/src/*"],
+      "@siya/common/*": ["../common/src/*"],
+      "@siya/agent-runtime/*": ["../packages/agent-runtime/src/*"],
+      "@siya/code-map": ["../packages/code-map/src/index.ts"],
+      "@siya/code-map/*": ["../packages/code-map/src/*"],
+      "@siya/llm-providers/*": ["../packages/llm-providers/src/*"]
+    }
+  },
+  "include": ["src/**/*"],
+  "exclude": ["**/*.test.ts", "**/*.spec.ts", "node_modules", "dist"]
+}
